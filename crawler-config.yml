@@ -1,0 +1,52 @@
+excludes:
+  - Speech to text
+  - Text to speech
+  - Speech translation
+  - Batch
+  - Linux Virtual Machines
+  - SDKs
+  - Content Protection
+  - Encoding
+  - Live and On-Demand Streaming
+  - Storage Accounts
+  - Maps
+  # Azure AD name changes are handled manually and should be removed from the list.
+  - Microsoft Entra ID (formerly Azure AD)
+exchanges:
+  - from: App Center
+    to: Visual Studio App Center
+  - from: Speaker recognition
+    to: Azure AI Speech Services
+  - from: Update management center
+    to: Azure Update Manager
+  - from: Content Delivery Network
+    to: Azure CDN
+addAzurePrefix:
+  - Health Bot
+  - Data Catalog
+  - Data Lake Analytics
+  - Event Hubs
+  - HDInsight
+  - App Configuration
+  - API Management
+  - App Service
+  - Service Bus
+  - Logic Apps
+  - Notification Hubs
+  - Automation
+  - Cloud Shell
+  - Network Watcher
+  - Traffic Manager
+  - Media Services
+  - Remote Rendering
+  - Spatial Anchors
+  - Object Anchors
+  - Load Balancer
+  - Virtual Network
+  - VPN Gateway
+  - Application Gateway
+  - Key Vault
+  - Archive Storage
+  - Storage Explorer
+  - Queue Storage
+  - Table Storage

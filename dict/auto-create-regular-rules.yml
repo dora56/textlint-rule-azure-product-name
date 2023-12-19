@@ -1,0 +1,2527 @@
+version: 1
+rules:
+  - expected: AI Anomaly Detector
+    options:
+      wordBoundary: true
+  - expected: AI Anomaly Detector
+    patterns:
+      - Azure AI Anomaly Detector
+    options:
+      wordBoundary: true
+  - expected: AI Anomaly Detector
+    patterns:
+      - AIAnomalyDetector
+    options:
+      wordBoundary: true
+  - expected: Avere vFXT for Azure
+    options:
+      wordBoundary: true
+  - expected: Avere vFXT for Azure
+    patterns:
+      - Azure Avere vFXT for Azure
+    options:
+      wordBoundary: true
+  - expected: Avere vFXT for Azure
+    patterns:
+      - AverevFXTforAzure
+    options:
+      wordBoundary: true
+  - expected: AI Bot Service
+    options:
+      wordBoundary: true
+  - expected: Azure AI Bot Service
+    patterns:
+      - Microsoft AI Bot Service
+    options:
+      wordBoundary: true
+  - expected: AI Bot Service
+    patterns:
+      - AIBotService
+    options:
+      wordBoundary: true
+  - expected: AI Content Safety
+    options:
+      wordBoundary: true
+  - expected: Azure AI Content Safety
+    patterns:
+      - Microsoft AI Content Safety
+    options:
+      wordBoundary: true
+  - expected: AI Content Safety
+    patterns:
+      - AIContentSafety
+    options:
+      wordBoundary: true
+  - expected: AI Custom Vision
+    options:
+      wordBoundary: true
+  - expected: Azure AI Custom Vision
+    patterns:
+      - Microsoft AI Custom Vision
+    options:
+      wordBoundary: true
+  - expected: AI Custom Vision
+    patterns:
+      - AICustomVision
+    options:
+      wordBoundary: true
+  - expected: AI Document Intelligence
+    options:
+      wordBoundary: true
+  - expected: Azure AI Document Intelligence
+    patterns:
+      - Microsoft AI Document Intelligence
+    options:
+      wordBoundary: true
+  - expected: AI Document Intelligence
+    patterns:
+      - AIDocumentIntelligence
+    options:
+      wordBoundary: true
+  - expected: AI Immersive Reader
+    options:
+      wordBoundary: true
+  - expected: Azure AI Immersive Reader
+    patterns:
+      - Microsoft AI Immersive Reader
+    options:
+      wordBoundary: true
+  - expected: AI Immersive Reader
+    patterns:
+      - AIImmersiveReader
+    options:
+      wordBoundary: true
+  - expected: AI Language
+    options:
+      wordBoundary: true
+  - expected: Azure AI Language
+    patterns:
+      - Microsoft AI Language
+    options:
+      wordBoundary: true
+  - expected: AI Language
+    patterns:
+      - AILanguage
+    options:
+      wordBoundary: true
+  - expected: AI Metrics Advisor
+    options:
+      wordBoundary: true
+  - expected: Azure AI Metrics Advisor
+    patterns:
+      - Microsoft AI Metrics Advisor
+    options:
+      wordBoundary: true
+  - expected: AI Metrics Advisor
+    patterns:
+      - AIMetricsAdvisor
+    options:
+      wordBoundary: true
+  - expected: AI Personalizer
+    options:
+      wordBoundary: true
+  - expected: Azure AI Personalizer
+    patterns:
+      - Microsoft AI Personalizer
+    options:
+      wordBoundary: true
+  - expected: AI Personalizer
+    patterns:
+      - AIPersonalizer
+    options:
+      wordBoundary: true
+  - expected: AI Search
+    options:
+      wordBoundary: true
+  - expected: Azure AI Search
+    patterns:
+      - Microsoft AI Search
+    options:
+      wordBoundary: true
+  - expected: AI Search
+    patterns:
+      - AISearch
+    options:
+      wordBoundary: true
+  - expected: AI Services
+    options:
+      wordBoundary: true
+  - expected: Azure AI Services
+    patterns:
+      - Microsoft AI Services
+    options:
+      wordBoundary: true
+  - expected: AI Services
+    patterns:
+      - AIServices
+    options:
+      wordBoundary: true
+  - expected: AI Speech Services
+    options:
+      wordBoundary: true
+  - expected: Azure AI Speech Services
+    patterns:
+      - Microsoft AI Speech Services
+    options:
+      wordBoundary: true
+  - expected: AI Speech Services
+    patterns:
+      - AISpeechServices
+    options:
+      wordBoundary: true
+  - expected: AI Studio
+    options:
+      wordBoundary: true
+  - expected: Azure AI Studio
+    patterns:
+      - Microsoft AI Studio
+    options:
+      wordBoundary: true
+  - expected: AI Studio
+    patterns:
+      - AIStudio
+    options:
+      wordBoundary: true
+  - expected: AI Translator
+    options:
+      wordBoundary: true
+  - expected: Azure AI Translator
+    patterns:
+      - Microsoft AI Translator
+    options:
+      wordBoundary: true
+  - expected: AI Translator
+    patterns:
+      - AITranslator
+    options:
+      wordBoundary: true
+  - expected: AI Video Indexer
+    options:
+      wordBoundary: true
+  - expected: Azure AI Video Indexer
+    patterns:
+      - Microsoft AI Video Indexer
+    options:
+      wordBoundary: true
+  - expected: AI Video Indexer
+    patterns:
+      - AIVideoIndexer
+    options:
+      wordBoundary: true
+  - expected: API Management
+    options:
+      wordBoundary: true
+  - expected: Azure API Management
+    patterns:
+      - Microsoft API Management
+    options:
+      wordBoundary: true
+  - expected: API Management
+    patterns:
+      - APIManagement
+    options:
+      wordBoundary: true
+  - expected: Active Directory Domain Services
+    options:
+      wordBoundary: true
+  - expected: Azure Active Directory Domain Services
+    patterns:
+      - Microsoft Active Directory Domain Services
+    options:
+      wordBoundary: true
+  - expected: Active Directory Domain Services
+    patterns:
+      - ActiveDirectoryDomainServices
+    options:
+      wordBoundary: true
+  - expected: Active Directory External Identities
+    options:
+      wordBoundary: true
+  - expected: Azure Active Directory External Identities
+    patterns:
+      - Microsoft Active Directory External Identities
+    options:
+      wordBoundary: true
+  - expected: Active Directory External Identities
+    patterns:
+      - ActiveDirectoryExternalIdentities
+    options:
+      wordBoundary: true
+  - expected: Advisor
+    options:
+      wordBoundary: true
+  - expected: Azure Advisor
+    patterns:
+      - Microsoft Advisor
+    options:
+      wordBoundary: true
+  - expected: Analysis Services
+    options:
+      wordBoundary: true
+  - expected: Azure Analysis Services
+    patterns:
+      - Microsoft Analysis Services
+    options:
+      wordBoundary: true
+  - expected: Analysis Services
+    patterns:
+      - AnalysisServices
+    options:
+      wordBoundary: true
+  - expected: App Configuration
+    options:
+      wordBoundary: true
+  - expected: Azure App Configuration
+    patterns:
+      - Microsoft App Configuration
+    options:
+      wordBoundary: true
+  - expected: App Configuration
+    patterns:
+      - AppConfiguration
+    options:
+      wordBoundary: true
+  - expected: App Service
+    options:
+      wordBoundary: true
+  - expected: Azure App Service
+    patterns:
+      - Microsoft App Service
+    options:
+      wordBoundary: true
+  - expected: App Service
+    patterns:
+      - AppService
+    options:
+      wordBoundary: true
+  - expected: Application Gateway
+    options:
+      wordBoundary: true
+  - expected: Azure Application Gateway
+    patterns:
+      - Microsoft Application Gateway
+    options:
+      wordBoundary: true
+  - expected: Application Gateway
+    patterns:
+      - ApplicationGateway
+    options:
+      wordBoundary: true
+  - expected: Arc
+    options:
+      wordBoundary: true
+  - expected: Azure Arc
+    patterns:
+      - Microsoft Arc
+    options:
+      wordBoundary: true
+  - expected: Archive Storage
+    options:
+      wordBoundary: true
+  - expected: Azure Archive Storage
+    patterns:
+      - Microsoft Archive Storage
+    options:
+      wordBoundary: true
+  - expected: Archive Storage
+    patterns:
+      - ArchiveStorage
+    options:
+      wordBoundary: true
+  - expected: Artifacts
+    options:
+      wordBoundary: true
+  - expected: Azure Artifacts
+    patterns:
+      - Microsoft Artifacts
+    options:
+      wordBoundary: true
+  - expected: Automanage
+    options:
+      wordBoundary: true
+  - expected: Azure Automanage
+    patterns:
+      - Microsoft Automanage
+    options:
+      wordBoundary: true
+  - expected: Automation
+    options:
+      wordBoundary: true
+  - expected: Azure Automation
+    patterns:
+      - Microsoft Automation
+    options:
+      wordBoundary: true
+  - expected: Azure HDInsight on Azure Kubernetes Service
+    options:
+      wordBoundary: true
+  - expected: Azure Azure HDInsight on Azure Kubernetes Service
+    patterns:
+      - Microsoft Azure HDInsight on Azure Kubernetes Service
+    options:
+      wordBoundary: true
+  - expected: Azure HDInsight on Azure Kubernetes Service
+    patterns:
+      - AzureHDInsightonAzureKubernetesService
+    options:
+      wordBoundary: true
+  - expected: Azure Virtual Network Manager
+    options:
+      wordBoundary: true
+  - expected: Azure Azure Virtual Network Manager
+    patterns:
+      - Microsoft Azure Virtual Network Manager
+    options:
+      wordBoundary: true
+  - expected: Azure Virtual Network Manager
+    patterns:
+      - AzureVirtualNetworkManager
+    options:
+      wordBoundary: true
+  - expected: Backup
+    options:
+      wordBoundary: true
+  - expected: Azure Backup
+    patterns:
+      - Microsoft Backup
+    options:
+      wordBoundary: true
+  - expected: Bastion
+    options:
+      wordBoundary: true
+  - expected: Azure Bastion
+    patterns:
+      - Microsoft Bastion
+    options:
+      wordBoundary: true
+  - expected: Blob Storage
+    options:
+      wordBoundary: true
+  - expected: Azure Blob Storage
+    patterns:
+      - Microsoft Blob Storage
+    options:
+      wordBoundary: true
+  - expected: Blob Storage
+    patterns:
+      - BlobStorage
+    options:
+      wordBoundary: true
+  - expected: Blueprints
+    options:
+      wordBoundary: true
+  - expected: Azure Blueprints
+    patterns:
+      - Microsoft Blueprints
+    options:
+      wordBoundary: true
+  - expected: Boards
+    options:
+      wordBoundary: true
+  - expected: Azure Boards
+    patterns:
+      - Microsoft Boards
+    options:
+      wordBoundary: true
+  - expected: CDN
+    options:
+      wordBoundary: true
+  - expected: Azure CDN
+    patterns:
+      - Microsoft CDN
+    options:
+      wordBoundary: true
+  - expected: Cache for Redis
+    options:
+      wordBoundary: true
+  - expected: Azure Cache for Redis
+    patterns:
+      - Microsoft Cache for Redis
+    options:
+      wordBoundary: true
+  - expected: Cache for Redis
+    patterns:
+      - CacheforRedis
+    options:
+      wordBoundary: true
+  - expected: Chaos Studio
+    options:
+      wordBoundary: true
+  - expected: Azure Chaos Studio
+    patterns:
+      - Microsoft Chaos Studio
+    options:
+      wordBoundary: true
+  - expected: Chaos Studio
+    patterns:
+      - ChaosStudio
+    options:
+      wordBoundary: true
+  - expected: Cloud Shell
+    options:
+      wordBoundary: true
+  - expected: Azure Cloud Shell
+    patterns:
+      - Microsoft Cloud Shell
+    options:
+      wordBoundary: true
+  - expected: Cloud Shell
+    patterns:
+      - CloudShell
+    options:
+      wordBoundary: true
+  - expected: Communication Services
+    options:
+      wordBoundary: true
+  - expected: Azure Communication Services
+    patterns:
+      - Microsoft Communication Services
+    options:
+      wordBoundary: true
+  - expected: Communication Services
+    patterns:
+      - CommunicationServices
+    options:
+      wordBoundary: true
+  - expected: Communications Gateway
+    options:
+      wordBoundary: true
+  - expected: Azure Communications Gateway
+    patterns:
+      - Microsoft Communications Gateway
+    options:
+      wordBoundary: true
+  - expected: Communications Gateway
+    patterns:
+      - CommunicationsGateway
+    options:
+      wordBoundary: true
+  - expected: Container Apps
+    options:
+      wordBoundary: true
+  - expected: Azure Container Apps
+    patterns:
+      - Microsoft Container Apps
+    options:
+      wordBoundary: true
+  - expected: Container Apps
+    patterns:
+      - ContainerApps
+    options:
+      wordBoundary: true
+  - expected: Container Instances
+    options:
+      wordBoundary: true
+  - expected: Azure Container Instances
+    patterns:
+      - Microsoft Container Instances
+    options:
+      wordBoundary: true
+  - expected: Container Instances
+    patterns:
+      - ContainerInstances
+    options:
+      wordBoundary: true
+  - expected: Container Registry
+    options:
+      wordBoundary: true
+  - expected: Azure Container Registry
+    patterns:
+      - Microsoft Container Registry
+    options:
+      wordBoundary: true
+  - expected: Container Registry
+    patterns:
+      - ContainerRegistry
+    options:
+      wordBoundary: true
+  - expected: Cosmos DB
+    options:
+      wordBoundary: true
+  - expected: Azure Cosmos DB
+    patterns:
+      - Microsoft Cosmos DB
+    options:
+      wordBoundary: true
+  - expected: Cosmos DB
+    patterns:
+      - CosmosDB
+    options:
+      wordBoundary: true
+  - expected: CycleCloud
+    options:
+      wordBoundary: true
+  - expected: Azure CycleCloud
+    patterns:
+      - Microsoft CycleCloud
+    options:
+      wordBoundary: true
+  - expected: CycleCloud
+    patterns:
+      - Cyclecloud
+      - Cycle Cloud
+    options:
+      wordBoundary: true
+  - expected: DDoS Protection
+    options:
+      wordBoundary: true
+  - expected: Azure DDoS Protection
+    patterns:
+      - Microsoft DDoS Protection
+    options:
+      wordBoundary: true
+  - expected: DDoS Protection
+    patterns:
+      - DDoSProtection
+    options:
+      wordBoundary: true
+  - expected: DNS
+    options:
+      wordBoundary: true
+  - expected: Azure DNS
+    patterns:
+      - Microsoft DNS
+    options:
+      wordBoundary: true
+  - expected: Data Box
+    options:
+      wordBoundary: true
+  - expected: Azure Data Box
+    patterns:
+      - Microsoft Data Box
+    options:
+      wordBoundary: true
+  - expected: Data Box
+    patterns:
+      - DataBox
+    options:
+      wordBoundary: true
+  - expected: Data Catalog
+    options:
+      wordBoundary: true
+  - expected: Azure Data Catalog
+    patterns:
+      - Microsoft Data Catalog
+    options:
+      wordBoundary: true
+  - expected: Data Catalog
+    patterns:
+      - DataCatalog
+    options:
+      wordBoundary: true
+  - expected: Data Explorer
+    options:
+      wordBoundary: true
+  - expected: Azure Data Explorer
+    patterns:
+      - Microsoft Data Explorer
+    options:
+      wordBoundary: true
+  - expected: Data Explorer
+    patterns:
+      - DataExplorer
+    options:
+      wordBoundary: true
+  - expected: Data Factory
+    options:
+      wordBoundary: true
+  - expected: Azure Data Factory
+    patterns:
+      - Microsoft Data Factory
+    options:
+      wordBoundary: true
+  - expected: Data Factory
+    patterns:
+      - DataFactory
+    options:
+      wordBoundary: true
+  - expected: Data Lake Analytics
+    options:
+      wordBoundary: true
+  - expected: Azure Data Lake Analytics
+    patterns:
+      - Microsoft Data Lake Analytics
+    options:
+      wordBoundary: true
+  - expected: Data Lake Analytics
+    patterns:
+      - DataLakeAnalytics
+    options:
+      wordBoundary: true
+  - expected: Data Lake Storage
+    options:
+      wordBoundary: true
+  - expected: Azure Data Lake Storage
+    patterns:
+      - Microsoft Data Lake Storage
+    options:
+      wordBoundary: true
+  - expected: Data Lake Storage
+    patterns:
+      - DataLakeStorage
+    options:
+      wordBoundary: true
+  - expected: Data Lake Storage Gen1
+    options:
+      wordBoundary: true
+  - expected: Azure Data Lake Storage Gen1
+    patterns:
+      - Microsoft Data Lake Storage Gen1
+    options:
+      wordBoundary: true
+  - expected: Data Lake Storage Gen1
+    patterns:
+      - DataLakeStorageGen1
+    options:
+      wordBoundary: true
+  - expected: Data Share
+    options:
+      wordBoundary: true
+  - expected: Azure Data Share
+    patterns:
+      - Microsoft Data Share
+    options:
+      wordBoundary: true
+  - expected: Data Share
+    patterns:
+      - DataShare
+    options:
+      wordBoundary: true
+  - expected: Database Migration Service
+    options:
+      wordBoundary: true
+  - expected: Azure Database Migration Service
+    patterns:
+      - Microsoft Database Migration Service
+    options:
+      wordBoundary: true
+  - expected: Database Migration Service
+    patterns:
+      - DatabaseMigrationService
+    options:
+      wordBoundary: true
+  - expected: Database for MariaDB
+    options:
+      wordBoundary: true
+  - expected: Azure Database for MariaDB
+    patterns:
+      - Microsoft Database for MariaDB
+    options:
+      wordBoundary: true
+  - expected: Database for MariaDB
+    patterns:
+      - DatabaseforMariaDB
+    options:
+      wordBoundary: true
+  - expected: Database for MySQL
+    options:
+      wordBoundary: true
+  - expected: Azure Database for MySQL
+    patterns:
+      - Microsoft Database for MySQL
+    options:
+      wordBoundary: true
+  - expected: Database for MySQL
+    patterns:
+      - DatabaseforMySQL
+    options:
+      wordBoundary: true
+  - expected: Database for PostgreSQL
+    options:
+      wordBoundary: true
+  - expected: Azure Database for PostgreSQL
+    patterns:
+      - Microsoft Database for PostgreSQL
+    options:
+      wordBoundary: true
+  - expected: Database for PostgreSQL
+    patterns:
+      - DatabaseforPostgreSQL
+    options:
+      wordBoundary: true
+  - expected: Databricks
+    options:
+      wordBoundary: true
+  - expected: Azure Databricks
+    patterns:
+      - Microsoft Databricks
+    options:
+      wordBoundary: true
+  - expected: Dedicated HSM
+    options:
+      wordBoundary: true
+  - expected: Azure Dedicated HSM
+    patterns:
+      - Microsoft Dedicated HSM
+    options:
+      wordBoundary: true
+  - expected: Dedicated HSM
+    patterns:
+      - DedicatedHSM
+    options:
+      wordBoundary: true
+  - expected: Dedicated Host
+    options:
+      wordBoundary: true
+  - expected: Azure Dedicated Host
+    patterns:
+      - Microsoft Dedicated Host
+    options:
+      wordBoundary: true
+  - expected: Dedicated Host
+    patterns:
+      - DedicatedHost
+    options:
+      wordBoundary: true
+  - expected: Deployment Environments
+    options:
+      wordBoundary: true
+  - expected: Azure Deployment Environments
+    patterns:
+      - Microsoft Deployment Environments
+    options:
+      wordBoundary: true
+  - expected: Deployment Environments
+    patterns:
+      - DeploymentEnvironments
+    options:
+      wordBoundary: true
+  - expected: DevOps
+    options:
+      wordBoundary: true
+  - expected: Azure DevOps
+    patterns:
+      - Microsoft DevOps
+    options:
+      wordBoundary: true
+  - expected: DevOps
+    patterns:
+      - Devops
+      - Dev Ops
+    options:
+      wordBoundary: true
+  - expected: DevTest Labs
+    options:
+      wordBoundary: true
+  - expected: Azure DevTest Labs
+    patterns:
+      - Microsoft DevTest Labs
+    options:
+      wordBoundary: true
+  - expected: DevTest Labs
+    patterns:
+      - DevTestLabs
+      - Devtest labs
+      - Dev Test Labs
+    options:
+      wordBoundary: true
+  - expected: Digital Twins
+    options:
+      wordBoundary: true
+  - expected: Azure Digital Twins
+    patterns:
+      - Microsoft Digital Twins
+    options:
+      wordBoundary: true
+  - expected: Digital Twins
+    patterns:
+      - DigitalTwins
+    options:
+      wordBoundary: true
+  - expected: Disk Storage
+    options:
+      wordBoundary: true
+  - expected: Azure Disk Storage
+    patterns:
+      - Microsoft Disk Storage
+    options:
+      wordBoundary: true
+  - expected: Disk Storage
+    patterns:
+      - DiskStorage
+    options:
+      wordBoundary: true
+  - expected: Elastic SAN
+    options:
+      wordBoundary: true
+  - expected: Azure Elastic SAN
+    patterns:
+      - Microsoft Elastic SAN
+    options:
+      wordBoundary: true
+  - expected: Elastic SAN
+    patterns:
+      - ElasticSAN
+    options:
+      wordBoundary: true
+  - expected: Event Hubs
+    options:
+      wordBoundary: true
+  - expected: Azure Event Hubs
+    patterns:
+      - Microsoft Event Hubs
+    options:
+      wordBoundary: true
+  - expected: Event Hubs
+    patterns:
+      - EventHubs
+    options:
+      wordBoundary: true
+  - expected: ExpressRoute
+    options:
+      wordBoundary: true
+  - expected: Azure ExpressRoute
+    patterns:
+      - Microsoft ExpressRoute
+    options:
+      wordBoundary: true
+  - expected: ExpressRoute
+    patterns:
+      - Expressroute
+      - Express Route
+    options:
+      wordBoundary: true
+  - expected: Files
+    options:
+      wordBoundary: true
+  - expected: Azure Files
+    patterns:
+      - Microsoft Files
+    options:
+      wordBoundary: true
+  - expected: Firewall
+    options:
+      wordBoundary: true
+  - expected: Azure Firewall
+    patterns:
+      - Microsoft Firewall
+    options:
+      wordBoundary: true
+  - expected: Firewall Manager
+    options:
+      wordBoundary: true
+  - expected: Azure Firewall Manager
+    patterns:
+      - Microsoft Firewall Manager
+    options:
+      wordBoundary: true
+  - expected: Firewall Manager
+    patterns:
+      - FirewallManager
+    options:
+      wordBoundary: true
+  - expected: Fluid Relay
+    options:
+      wordBoundary: true
+  - expected: Azure Fluid Relay
+    patterns:
+      - Microsoft Fluid Relay
+    options:
+      wordBoundary: true
+  - expected: Fluid Relay
+    patterns:
+      - FluidRelay
+    options:
+      wordBoundary: true
+  - expected: Front Door
+    options:
+      wordBoundary: true
+  - expected: Azure Front Door
+    patterns:
+      - Microsoft Front Door
+    options:
+      wordBoundary: true
+  - expected: Front Door
+    patterns:
+      - FrontDoor
+    options:
+      wordBoundary: true
+  - expected: Functions
+    options:
+      wordBoundary: true
+  - expected: Azure Functions
+    patterns:
+      - Microsoft Functions
+    options:
+      wordBoundary: true
+  - expected: HDInsight
+    options:
+      wordBoundary: true
+  - expected: Azure HDInsight
+    patterns:
+      - Microsoft HDInsight
+    options:
+      wordBoundary: true
+  - expected: HPC Cache
+    options:
+      wordBoundary: true
+  - expected: Azure HPC Cache
+    patterns:
+      - Microsoft HPC Cache
+    options:
+      wordBoundary: true
+  - expected: HPC Cache
+    patterns:
+      - HPCCache
+    options:
+      wordBoundary: true
+  - expected: Health Bot
+    options:
+      wordBoundary: true
+  - expected: Azure Health Bot
+    patterns:
+      - Microsoft Health Bot
+    options:
+      wordBoundary: true
+  - expected: Health Bot
+    patterns:
+      - HealthBot
+    options:
+      wordBoundary: true
+  - expected: Health Data Services
+    options:
+      wordBoundary: true
+  - expected: Azure Health Data Services
+    patterns:
+      - Microsoft Health Data Services
+    options:
+      wordBoundary: true
+  - expected: Health Data Services
+    patterns:
+      - HealthDataServices
+    options:
+      wordBoundary: true
+  - expected: Information Protection
+    options:
+      wordBoundary: true
+  - expected: Azure Information Protection
+    patterns:
+      - Microsoft Information Protection
+    options:
+      wordBoundary: true
+  - expected: Information Protection
+    patterns:
+      - InformationProtection
+    options:
+      wordBoundary: true
+  - expected: Internet Analyzer
+    options:
+      wordBoundary: true
+  - expected: Azure Internet Analyzer
+    patterns:
+      - Microsoft Internet Analyzer
+    options:
+      wordBoundary: true
+  - expected: Internet Analyzer
+    patterns:
+      - InternetAnalyzer
+    options:
+      wordBoundary: true
+  - expected: IoT Central
+    options:
+      wordBoundary: true
+  - expected: Azure IoT Central
+    patterns:
+      - Microsoft IoT Central
+    options:
+      wordBoundary: true
+  - expected: IoT Central
+    patterns:
+      - IoTCentral
+    options:
+      wordBoundary: true
+  - expected: IoT Edge
+    options:
+      wordBoundary: true
+  - expected: Azure IoT Edge
+    patterns:
+      - Microsoft IoT Edge
+    options:
+      wordBoundary: true
+  - expected: IoT Edge
+    patterns:
+      - IoTEdge
+    options:
+      wordBoundary: true
+  - expected: IoT Hub
+    options:
+      wordBoundary: true
+  - expected: Azure IoT Hub
+    patterns:
+      - Microsoft IoT Hub
+    options:
+      wordBoundary: true
+  - expected: IoT Hub
+    patterns:
+      - IoTHub
+    options:
+      wordBoundary: true
+  - expected: IoT Operations
+    options:
+      wordBoundary: true
+  - expected: Azure IoT Operations
+    patterns:
+      - Microsoft IoT Operations
+    options:
+      wordBoundary: true
+  - expected: IoT Operations
+    patterns:
+      - IoTOperations
+    options:
+      wordBoundary: true
+  - expected: Key Vault
+    options:
+      wordBoundary: true
+  - expected: Azure Key Vault
+    patterns:
+      - Microsoft Key Vault
+    options:
+      wordBoundary: true
+  - expected: Key Vault
+    patterns:
+      - KeyVault
+    options:
+      wordBoundary: true
+  - expected: Kubernetes Fleet Manager
+    options:
+      wordBoundary: true
+  - expected: Azure Kubernetes Fleet Manager
+    patterns:
+      - Microsoft Kubernetes Fleet Manager
+    options:
+      wordBoundary: true
+  - expected: Kubernetes Fleet Manager
+    patterns:
+      - KubernetesFleetManager
+    options:
+      wordBoundary: true
+  - expected: Kubernetes Service
+    options:
+      wordBoundary: true
+  - expected: Azure Kubernetes Service
+    patterns:
+      - Microsoft Kubernetes Service
+    options:
+      wordBoundary: true
+  - expected: Kubernetes Service
+    patterns:
+      - KubernetesService
+    options:
+      wordBoundary: true
+  - expected: Kubernetes Service Edge Essentials
+    options:
+      wordBoundary: true
+  - expected: Azure Kubernetes Service Edge Essentials
+    patterns:
+      - Microsoft Kubernetes Service Edge Essentials
+    options:
+      wordBoundary: true
+  - expected: Kubernetes Service Edge Essentials
+    patterns:
+      - KubernetesServiceEdgeEssentials
+    options:
+      wordBoundary: true
+  - expected: Lab Services
+    options:
+      wordBoundary: true
+  - expected: Azure Lab Services
+    patterns:
+      - Microsoft Lab Services
+    options:
+      wordBoundary: true
+  - expected: Lab Services
+    patterns:
+      - LabServices
+    options:
+      wordBoundary: true
+  - expected: Lighthouse
+    options:
+      wordBoundary: true
+  - expected: Azure Lighthouse
+    patterns:
+      - Microsoft Lighthouse
+    options:
+      wordBoundary: true
+  - expected: Load Balancer
+    options:
+      wordBoundary: true
+  - expected: Azure Load Balancer
+    patterns:
+      - Microsoft Load Balancer
+    options:
+      wordBoundary: true
+  - expected: Load Balancer
+    patterns:
+      - LoadBalancer
+    options:
+      wordBoundary: true
+  - expected: Load Testing
+    options:
+      wordBoundary: true
+  - expected: Azure Load Testing
+    patterns:
+      - Microsoft Load Testing
+    options:
+      wordBoundary: true
+  - expected: Load Testing
+    patterns:
+      - LoadTesting
+    options:
+      wordBoundary: true
+  - expected: Logic Apps
+    options:
+      wordBoundary: true
+  - expected: Azure Logic Apps
+    patterns:
+      - Microsoft Logic Apps
+    options:
+      wordBoundary: true
+  - expected: Logic Apps
+    patterns:
+      - LogicApps
+    options:
+      wordBoundary: true
+  - expected: Machine Learning
+    options:
+      wordBoundary: true
+  - expected: Azure Machine Learning
+    patterns:
+      - Microsoft Machine Learning
+    options:
+      wordBoundary: true
+  - expected: Machine Learning
+    patterns:
+      - MachineLearning
+    options:
+      wordBoundary: true
+  - expected: Managed Applications
+    options:
+      wordBoundary: true
+  - expected: Azure Managed Applications
+    patterns:
+      - Microsoft Managed Applications
+    options:
+      wordBoundary: true
+  - expected: Managed Applications
+    patterns:
+      - ManagedApplications
+    options:
+      wordBoundary: true
+  - expected: Managed Confidential Consortium Framework
+    options:
+      wordBoundary: true
+  - expected: Azure Managed Confidential Consortium Framework
+    patterns:
+      - Microsoft Managed Confidential Consortium Framework
+    options:
+      wordBoundary: true
+  - expected: Managed Confidential Consortium Framework
+    patterns:
+      - ManagedConfidentialConsortiumFramework
+    options:
+      wordBoundary: true
+  - expected: Managed Grafana
+    options:
+      wordBoundary: true
+  - expected: Azure Managed Grafana
+    patterns:
+      - Microsoft Managed Grafana
+    options:
+      wordBoundary: true
+  - expected: Managed Grafana
+    patterns:
+      - ManagedGrafana
+    options:
+      wordBoundary: true
+  - expected: Managed Instance for Apache Cassandra
+    options:
+      wordBoundary: true
+  - expected: Azure Managed Instance for Apache Cassandra
+    patterns:
+      - Microsoft Managed Instance for Apache Cassandra
+    options:
+      wordBoundary: true
+  - expected: Managed Instance for Apache Cassandra
+    patterns:
+      - ManagedInstanceforApacheCassandra
+    options:
+      wordBoundary: true
+  - expected: Managed Lustre
+    options:
+      wordBoundary: true
+  - expected: Azure Managed Lustre
+    patterns:
+      - Microsoft Managed Lustre
+    options:
+      wordBoundary: true
+  - expected: Managed Lustre
+    patterns:
+      - ManagedLustre
+    options:
+      wordBoundary: true
+  - expected: Media Player
+    options:
+      wordBoundary: true
+  - expected: Azure Media Player
+    patterns:
+      - Microsoft Media Player
+    options:
+      wordBoundary: true
+  - expected: Media Player
+    patterns:
+      - MediaPlayer
+    options:
+      wordBoundary: true
+  - expected: Media Services
+    options:
+      wordBoundary: true
+  - expected: Azure Media Services
+    patterns:
+      - Microsoft Media Services
+    options:
+      wordBoundary: true
+  - expected: Media Services
+    patterns:
+      - MediaServices
+    options:
+      wordBoundary: true
+  - expected: Migrate
+    options:
+      wordBoundary: true
+  - expected: Azure Migrate
+    patterns:
+      - Microsoft Migrate
+    options:
+      wordBoundary: true
+  - expected: Modular Datacenter
+    options:
+      wordBoundary: true
+  - expected: Azure Modular Datacenter
+    patterns:
+      - Microsoft Modular Datacenter
+    options:
+      wordBoundary: true
+  - expected: Modular Datacenter
+    patterns:
+      - ModularDatacenter
+    options:
+      wordBoundary: true
+  - expected: Monitor
+    options:
+      wordBoundary: true
+  - expected: Azure Monitor
+    patterns:
+      - Microsoft Monitor
+    options:
+      wordBoundary: true
+  - expected: NAT Gateway
+    options:
+      wordBoundary: true
+  - expected: Azure NAT Gateway
+    patterns:
+      - Microsoft NAT Gateway
+    options:
+      wordBoundary: true
+  - expected: NAT Gateway
+    patterns:
+      - NATGateway
+    options:
+      wordBoundary: true
+  - expected: NetApp Files
+    options:
+      wordBoundary: true
+  - expected: Azure NetApp Files
+    patterns:
+      - Microsoft NetApp Files
+    options:
+      wordBoundary: true
+  - expected: NetApp Files
+    patterns:
+      - NetAppFiles
+      - Netapp files
+      - Net App Files
+    options:
+      wordBoundary: true
+  - expected: Network Function Manager
+    options:
+      wordBoundary: true
+  - expected: Azure Network Function Manager
+    patterns:
+      - Microsoft Network Function Manager
+    options:
+      wordBoundary: true
+  - expected: Network Function Manager
+    patterns:
+      - NetworkFunctionManager
+    options:
+      wordBoundary: true
+  - expected: Network Watcher
+    options:
+      wordBoundary: true
+  - expected: Azure Network Watcher
+    patterns:
+      - Microsoft Network Watcher
+    options:
+      wordBoundary: true
+  - expected: Network Watcher
+    patterns:
+      - NetworkWatcher
+    options:
+      wordBoundary: true
+  - expected: Notification Hubs
+    options:
+      wordBoundary: true
+  - expected: Azure Notification Hubs
+    patterns:
+      - Microsoft Notification Hubs
+    options:
+      wordBoundary: true
+  - expected: Notification Hubs
+    patterns:
+      - NotificationHubs
+    options:
+      wordBoundary: true
+  - expected: Object Anchors
+    options:
+      wordBoundary: true
+  - expected: Azure Object Anchors
+    patterns:
+      - Microsoft Object Anchors
+    options:
+      wordBoundary: true
+  - expected: Object Anchors
+    patterns:
+      - ObjectAnchors
+    options:
+      wordBoundary: true
+  - expected: Open Datasets
+    options:
+      wordBoundary: true
+  - expected: Azure Open Datasets
+    patterns:
+      - Microsoft Open Datasets
+    options:
+      wordBoundary: true
+  - expected: Open Datasets
+    patterns:
+      - OpenDatasets
+    options:
+      wordBoundary: true
+  - expected: OpenAI Service
+    options:
+      wordBoundary: true
+  - expected: Azure OpenAI Service
+    patterns:
+      - Microsoft OpenAI Service
+    options:
+      wordBoundary: true
+  - expected: OpenAI Service
+    patterns:
+      - OpenAIService
+    options:
+      wordBoundary: true
+  - expected: Operator Insights
+    options:
+      wordBoundary: true
+  - expected: Azure Operator Insights
+    patterns:
+      - Microsoft Operator Insights
+    options:
+      wordBoundary: true
+  - expected: Operator Insights
+    patterns:
+      - OperatorInsights
+    options:
+      wordBoundary: true
+  - expected: Operator Nexus
+    options:
+      wordBoundary: true
+  - expected: Azure Operator Nexus
+    patterns:
+      - Microsoft Operator Nexus
+    options:
+      wordBoundary: true
+  - expected: Operator Nexus
+    patterns:
+      - OperatorNexus
+    options:
+      wordBoundary: true
+  - expected: Operator Service Manager
+    options:
+      wordBoundary: true
+  - expected: Azure Operator Service Manager
+    patterns:
+      - Microsoft Operator Service Manager
+    options:
+      wordBoundary: true
+  - expected: Operator Service Manager
+    patterns:
+      - OperatorServiceManager
+    options:
+      wordBoundary: true
+  - expected: Orbital Ground Station
+    options:
+      wordBoundary: true
+  - expected: Azure Orbital Ground Station
+    patterns:
+      - Microsoft Orbital Ground Station
+    options:
+      wordBoundary: true
+  - expected: Orbital Ground Station
+    patterns:
+      - OrbitalGroundStation
+    options:
+      wordBoundary: true
+  - expected: Pipelines
+    options:
+      wordBoundary: true
+  - expected: Azure Pipelines
+    patterns:
+      - Microsoft Pipelines
+    options:
+      wordBoundary: true
+  - expected: Policy
+    options:
+      wordBoundary: true
+  - expected: Azure Policy
+    patterns:
+      - Microsoft Policy
+    options:
+      wordBoundary: true
+  - expected: Private 5G Core
+    options:
+      wordBoundary: true
+  - expected: Azure Private 5G Core
+    patterns:
+      - Microsoft Private 5G Core
+    options:
+      wordBoundary: true
+  - expected: Private 5G Core
+    patterns:
+      - Private5GCore
+    options:
+      wordBoundary: true
+  - expected: Private Link
+    options:
+      wordBoundary: true
+  - expected: Azure Private Link
+    patterns:
+      - Microsoft Private Link
+    options:
+      wordBoundary: true
+  - expected: Private Link
+    patterns:
+      - PrivateLink
+    options:
+      wordBoundary: true
+  - expected: Quantum
+    options:
+      wordBoundary: true
+  - expected: Azure Quantum
+    patterns:
+      - Microsoft Quantum
+    options:
+      wordBoundary: true
+  - expected: Queue Storage
+    options:
+      wordBoundary: true
+  - expected: Azure Queue Storage
+    patterns:
+      - Microsoft Queue Storage
+    options:
+      wordBoundary: true
+  - expected: Queue Storage
+    patterns:
+      - QueueStorage
+    options:
+      wordBoundary: true
+  - expected: RTOS
+    options:
+      wordBoundary: true
+  - expected: Azure RTOS
+    patterns:
+      - Microsoft RTOS
+    options:
+      wordBoundary: true
+  - expected: Red Hat OpenShift
+    options:
+      wordBoundary: true
+  - expected: Azure Red Hat OpenShift
+    patterns:
+      - Microsoft Red Hat OpenShift
+    options:
+      wordBoundary: true
+  - expected: Red Hat OpenShift
+    patterns:
+      - RedHatOpenShift
+      - Red hat openshift
+      - Red Hat Open Shift
+    options:
+      wordBoundary: true
+  - expected: Remote Rendering
+    options:
+      wordBoundary: true
+  - expected: Azure Remote Rendering
+    patterns:
+      - Microsoft Remote Rendering
+    options:
+      wordBoundary: true
+  - expected: Remote Rendering
+    patterns:
+      - RemoteRendering
+    options:
+      wordBoundary: true
+  - expected: Repos
+    options:
+      wordBoundary: true
+  - expected: Azure Repos
+    patterns:
+      - Microsoft Repos
+    options:
+      wordBoundary: true
+  - expected: Resource Manager
+    options:
+      wordBoundary: true
+  - expected: Azure Resource Manager
+    patterns:
+      - Microsoft Resource Manager
+    options:
+      wordBoundary: true
+  - expected: Resource Manager
+    patterns:
+      - ResourceManager
+    options:
+      wordBoundary: true
+  - expected: Resource Manager templates
+    options:
+      wordBoundary: true
+  - expected: Azure Resource Manager templates
+    patterns:
+      - Microsoft Resource Manager templates
+    options:
+      wordBoundary: true
+  - expected: Resource Manager templates
+    patterns:
+      - ResourceManagertemplates
+    options:
+      wordBoundary: true
+  - expected: Resource Mover
+    options:
+      wordBoundary: true
+  - expected: Azure Resource Mover
+    patterns:
+      - Microsoft Resource Mover
+    options:
+      wordBoundary: true
+  - expected: Resource Mover
+    patterns:
+      - ResourceMover
+    options:
+      wordBoundary: true
+  - expected: Route Server
+    options:
+      wordBoundary: true
+  - expected: Azure Route Server
+    patterns:
+      - Microsoft Route Server
+    options:
+      wordBoundary: true
+  - expected: Route Server
+    patterns:
+      - RouteServer
+    options:
+      wordBoundary: true
+  - expected: SQL
+    options:
+      wordBoundary: true
+  - expected: Azure SQL
+    patterns:
+      - Microsoft SQL
+    options:
+      wordBoundary: true
+  - expected: SQL Database
+    options:
+      wordBoundary: true
+  - expected: Azure SQL Database
+    patterns:
+      - Microsoft SQL Database
+    options:
+      wordBoundary: true
+  - expected: SQL Database
+    patterns:
+      - SQLDatabase
+    options:
+      wordBoundary: true
+  - expected: SQL Edge
+    options:
+      wordBoundary: true
+  - expected: Azure SQL Edge
+    patterns:
+      - Microsoft SQL Edge
+    options:
+      wordBoundary: true
+  - expected: SQL Edge
+    patterns:
+      - SQLEdge
+    options:
+      wordBoundary: true
+  - expected: SQL Managed Instance
+    options:
+      wordBoundary: true
+  - expected: Azure SQL Managed Instance
+    patterns:
+      - Microsoft SQL Managed Instance
+    options:
+      wordBoundary: true
+  - expected: SQL Managed Instance
+    patterns:
+      - SQLManagedInstance
+    options:
+      wordBoundary: true
+  - expected: Service Bus
+    options:
+      wordBoundary: true
+  - expected: Azure Service Bus
+    patterns:
+      - Microsoft Service Bus
+    options:
+      wordBoundary: true
+  - expected: Service Bus
+    patterns:
+      - ServiceBus
+    options:
+      wordBoundary: true
+  - expected: Service Fabric
+    options:
+      wordBoundary: true
+  - expected: Azure Service Fabric
+    patterns:
+      - Microsoft Service Fabric
+    options:
+      wordBoundary: true
+  - expected: Service Fabric
+    patterns:
+      - ServiceFabric
+    options:
+      wordBoundary: true
+  - expected: Service Health
+    options:
+      wordBoundary: true
+  - expected: Azure Service Health
+    patterns:
+      - Microsoft Service Health
+    options:
+      wordBoundary: true
+  - expected: Service Health
+    patterns:
+      - ServiceHealth
+    options:
+      wordBoundary: true
+  - expected: SignalR Service
+    options:
+      wordBoundary: true
+  - expected: Azure SignalR Service
+    patterns:
+      - Microsoft SignalR Service
+    options:
+      wordBoundary: true
+  - expected: SignalR Service
+    patterns:
+      - SignalRService
+    options:
+      wordBoundary: true
+  - expected: Site Recovery
+    options:
+      wordBoundary: true
+  - expected: Azure Site Recovery
+    patterns:
+      - Microsoft Site Recovery
+    options:
+      wordBoundary: true
+  - expected: Site Recovery
+    patterns:
+      - SiteRecovery
+    options:
+      wordBoundary: true
+  - expected: Spatial Anchors
+    options:
+      wordBoundary: true
+  - expected: Azure Spatial Anchors
+    patterns:
+      - Microsoft Spatial Anchors
+    options:
+      wordBoundary: true
+  - expected: Spatial Anchors
+    patterns:
+      - SpatialAnchors
+    options:
+      wordBoundary: true
+  - expected: Sphere
+    options:
+      wordBoundary: true
+  - expected: Azure Sphere
+    patterns:
+      - Microsoft Sphere
+    options:
+      wordBoundary: true
+  - expected: Spot Virtual Machines
+    options:
+      wordBoundary: true
+  - expected: Azure Spot Virtual Machines
+    patterns:
+      - Microsoft Spot Virtual Machines
+    options:
+      wordBoundary: true
+  - expected: Spot Virtual Machines
+    patterns:
+      - SpotVirtualMachines
+    options:
+      wordBoundary: true
+  - expected: Spring Apps
+    options:
+      wordBoundary: true
+  - expected: Azure Spring Apps
+    patterns:
+      - Microsoft Spring Apps
+    options:
+      wordBoundary: true
+  - expected: Spring Apps
+    patterns:
+      - SpringApps
+    options:
+      wordBoundary: true
+  - expected: Stack
+    options:
+      wordBoundary: true
+  - expected: Azure Stack
+    patterns:
+      - Microsoft Stack
+    options:
+      wordBoundary: true
+  - expected: Stack Edge
+    options:
+      wordBoundary: true
+  - expected: Azure Stack Edge
+    patterns:
+      - Microsoft Stack Edge
+    options:
+      wordBoundary: true
+  - expected: Stack Edge
+    patterns:
+      - StackEdge
+    options:
+      wordBoundary: true
+  - expected: Stack HCI
+    options:
+      wordBoundary: true
+  - expected: Azure Stack HCI
+    patterns:
+      - Microsoft Stack HCI
+    options:
+      wordBoundary: true
+  - expected: Stack HCI
+    patterns:
+      - StackHCI
+    options:
+      wordBoundary: true
+  - expected: Stack Hub
+    options:
+      wordBoundary: true
+  - expected: Azure Stack Hub
+    patterns:
+      - Microsoft Stack Hub
+    options:
+      wordBoundary: true
+  - expected: Stack Hub
+    patterns:
+      - StackHub
+    options:
+      wordBoundary: true
+  - expected: Storage Explorer
+    options:
+      wordBoundary: true
+  - expected: Azure Storage Explorer
+    patterns:
+      - Microsoft Storage Explorer
+    options:
+      wordBoundary: true
+  - expected: Storage Explorer
+    patterns:
+      - StorageExplorer
+    options:
+      wordBoundary: true
+  - expected: Stream Analytics
+    options:
+      wordBoundary: true
+  - expected: Azure Stream Analytics
+    patterns:
+      - Microsoft Stream Analytics
+    options:
+      wordBoundary: true
+  - expected: Stream Analytics
+    patterns:
+      - StreamAnalytics
+    options:
+      wordBoundary: true
+  - expected: Synapse Analytics
+    options:
+      wordBoundary: true
+  - expected: Azure Synapse Analytics
+    patterns:
+      - Microsoft Synapse Analytics
+    options:
+      wordBoundary: true
+  - expected: Synapse Analytics
+    patterns:
+      - SynapseAnalytics
+    options:
+      wordBoundary: true
+  - expected: Table Storage
+    options:
+      wordBoundary: true
+  - expected: Azure Table Storage
+    patterns:
+      - Microsoft Table Storage
+    options:
+      wordBoundary: true
+  - expected: Table Storage
+    patterns:
+      - TableStorage
+    options:
+      wordBoundary: true
+  - expected: Test Plans
+    options:
+      wordBoundary: true
+  - expected: Azure Test Plans
+    patterns:
+      - Microsoft Test Plans
+    options:
+      wordBoundary: true
+  - expected: Test Plans
+    patterns:
+      - TestPlans
+    options:
+      wordBoundary: true
+  - expected: Time Series Insights
+    options:
+      wordBoundary: true
+  - expected: Azure Time Series Insights
+    patterns:
+      - Microsoft Time Series Insights
+    options:
+      wordBoundary: true
+  - expected: Time Series Insights
+    patterns:
+      - TimeSeriesInsights
+    options:
+      wordBoundary: true
+  - expected: Traffic Manager
+    options:
+      wordBoundary: true
+  - expected: Azure Traffic Manager
+    patterns:
+      - Microsoft Traffic Manager
+    options:
+      wordBoundary: true
+  - expected: Traffic Manager
+    patterns:
+      - TrafficManager
+    options:
+      wordBoundary: true
+  - expected: Update Manager
+    options:
+      wordBoundary: true
+  - expected: Azure Update Manager
+    patterns:
+      - Microsoft Update Manager
+    options:
+      wordBoundary: true
+  - expected: Update Manager
+    patterns:
+      - UpdateManager
+    options:
+      wordBoundary: true
+  - expected: VM Image Builder
+    options:
+      wordBoundary: true
+  - expected: Azure VM Image Builder
+    patterns:
+      - Microsoft VM Image Builder
+    options:
+      wordBoundary: true
+  - expected: VM Image Builder
+    patterns:
+      - VMImageBuilder
+    options:
+      wordBoundary: true
+  - expected: VMware Solution
+    options:
+      wordBoundary: true
+  - expected: Azure VMware Solution
+    patterns:
+      - Microsoft VMware Solution
+    options:
+      wordBoundary: true
+  - expected: VMware Solution
+    patterns:
+      - VMwareSolution
+    options:
+      wordBoundary: true
+  - expected: VPN Gateway
+    options:
+      wordBoundary: true
+  - expected: Azure VPN Gateway
+    patterns:
+      - Microsoft VPN Gateway
+    options:
+      wordBoundary: true
+  - expected: VPN Gateway
+    patterns:
+      - VPNGateway
+    options:
+      wordBoundary: true
+  - expected: Virtual Desktop
+    options:
+      wordBoundary: true
+  - expected: Azure Virtual Desktop
+    patterns:
+      - Microsoft Virtual Desktop
+    options:
+      wordBoundary: true
+  - expected: Virtual Desktop
+    patterns:
+      - VirtualDesktop
+    options:
+      wordBoundary: true
+  - expected: Virtual Network
+    options:
+      wordBoundary: true
+  - expected: Azure Virtual Network
+    patterns:
+      - Microsoft Virtual Network
+    options:
+      wordBoundary: true
+  - expected: Virtual Network
+    patterns:
+      - VirtualNetwork
+    options:
+      wordBoundary: true
+  - expected: Web PubSub
+    options:
+      wordBoundary: true
+  - expected: Azure Web PubSub
+    patterns:
+      - Microsoft Web PubSub
+    options:
+      wordBoundary: true
+  - expected: Web PubSub
+    patterns:
+      - WebPubSub
+      - Web pubsub
+      - Web Pub Sub
+    options:
+      wordBoundary: true
+  - expected: confidential ledger
+    options:
+      wordBoundary: true
+  - expected: Azure confidential ledger
+    patterns:
+      - Microsoft confidential ledger
+    options:
+      wordBoundary: true
+  - expected: confidential ledger
+    patterns:
+      - confidentialledger
+    options:
+      wordBoundary: true
+  - expected: mobile app
+    options:
+      wordBoundary: true
+  - expected: Azure mobile app
+    patterns:
+      - Microsoft mobile app
+    options:
+      wordBoundary: true
+  - expected: mobile app
+    patterns:
+      - mobileapp
+    options:
+      wordBoundary: true
+  - expected: Cloud Services
+    options:
+      wordBoundary: true
+  - expected: Cloud Services
+    patterns:
+      - Azure Cloud Services
+    options:
+      wordBoundary: true
+  - expected: Cloud Services
+    patterns:
+      - CloudServices
+    options:
+      wordBoundary: true
+  - expected: Data Science Virtual Machines
+    options:
+      wordBoundary: true
+  - expected: Data Science Virtual Machines
+    patterns:
+      - Azure Data Science Virtual Machines
+    options:
+      wordBoundary: true
+  - expected: Data Science Virtual Machines
+    patterns:
+      - DataScienceVirtualMachines
+    options:
+      wordBoundary: true
+  - expected: Defender External Attack Surface Management
+    options:
+      wordBoundary: true
+  - expected: Defender External Attack Surface Management
+    patterns:
+      - Azure Defender External Attack Surface Management
+    options:
+      wordBoundary: true
+  - expected: Defender External Attack Surface Management
+    patterns:
+      - DefenderExternalAttackSurfaceManagement
+    options:
+      wordBoundary: true
+  - expected: DevOps tool integrations
+    options:
+      wordBoundary: true
+  - expected: DevOps tool integrations
+    patterns:
+      - Azure DevOps tool integrations
+    options:
+      wordBoundary: true
+  - expected: DevOps tool integrations
+    patterns:
+      - DevOpstoolintegrations
+      - Devops tool integrations
+      - Dev Ops tool integrations
+    options:
+      wordBoundary: true
+  - expected: Event Grid
+    options:
+      wordBoundary: true
+  - expected: Event Grid
+    patterns:
+      - Azure Event Grid
+    options:
+      wordBoundary: true
+  - expected: Event Grid
+    patterns:
+      - EventGrid
+    options:
+      wordBoundary: true
+  - expected: GitHub Advanced Security for Azure DevOps
+    options:
+      wordBoundary: true
+  - expected: GitHub Advanced Security for Azure DevOps
+    patterns:
+      - Azure GitHub Advanced Security for Azure DevOps
+    options:
+      wordBoundary: true
+  - expected: GitHub Advanced Security for Azure DevOps
+    patterns:
+      - GitHubAdvancedSecurityforAzureDevOps
+      - Github advanced security for azure devops
+      - Git Hub Advanced Security for Azure Dev Ops
+    options:
+      wordBoundary: true
+  - expected: Kinect DK
+    options:
+      wordBoundary: true
+  - expected: Kinect DK
+    patterns:
+      - Azure Kinect DK
+    options:
+      wordBoundary: true
+  - expected: Kinect DK
+    patterns:
+      - KinectDK
+    options:
+      wordBoundary: true
+  - expected: Language Understanding
+    options:
+      wordBoundary: true
+  - expected: Language Understanding
+    patterns:
+      - Azure Language Understanding
+    options:
+      wordBoundary: true
+  - expected: Language Understanding
+    patterns:
+      - LanguageUnderstanding
+    options:
+      wordBoundary: true
+  - expected: Azure Attestation
+    options:
+      wordBoundary: true
+  - expected: Microsoft Azure Attestation
+    patterns:
+      - Azure Azure Attestation
+    options:
+      wordBoundary: true
+  - expected: Azure Attestation
+    patterns:
+      - AzureAttestation
+    options:
+      wordBoundary: true
+  - expected: Azure Data Manager for Agriculture
+    options:
+      wordBoundary: true
+  - expected: Microsoft Azure Data Manager for Agriculture
+    patterns:
+      - Azure Azure Data Manager for Agriculture
+    options:
+      wordBoundary: true
+  - expected: Azure Data Manager for Agriculture
+    patterns:
+      - AzureDataManagerforAgriculture
+    options:
+      wordBoundary: true
+  - expected: Azure portal
+    options:
+      wordBoundary: true
+  - expected: Microsoft Azure portal
+    patterns:
+      - Azure Azure portal
+    options:
+      wordBoundary: true
+  - expected: Azure portal
+    patterns:
+      - Azureportal
+    options:
+      wordBoundary: true
+  - expected: Copilot for Azure
+    options:
+      wordBoundary: true
+  - expected: Microsoft Copilot for Azure
+    patterns:
+      - Azure Copilot for Azure
+    options:
+      wordBoundary: true
+  - expected: Copilot for Azure
+    patterns:
+      - CopilotforAzure
+    options:
+      wordBoundary: true
+  - expected: Cost Management
+    options:
+      wordBoundary: true
+  - expected: Microsoft Cost Management
+    patterns:
+      - Azure Cost Management
+    options:
+      wordBoundary: true
+  - expected: Cost Management
+    patterns:
+      - CostManagement
+    options:
+      wordBoundary: true
+  - expected: Defender for Cloud
+    options:
+      wordBoundary: true
+  - expected: Microsoft Defender for Cloud
+    patterns:
+      - Azure Defender for Cloud
+    options:
+      wordBoundary: true
+  - expected: Defender for Cloud
+    patterns:
+      - DefenderforCloud
+    options:
+      wordBoundary: true
+  - expected: Dev Box
+    options:
+      wordBoundary: true
+  - expected: Microsoft Dev Box
+    patterns:
+      - Azure Dev Box
+    options:
+      wordBoundary: true
+  - expected: Dev Box
+    patterns:
+      - DevBox
+    options:
+      wordBoundary: true
+  - expected: Energy Data Services
+    options:
+      wordBoundary: true
+  - expected: Microsoft Energy Data Services
+    patterns:
+      - Azure Energy Data Services
+    options:
+      wordBoundary: true
+  - expected: Energy Data Services
+    patterns:
+      - EnergyDataServices
+    options:
+      wordBoundary: true
+  - expected: Entra Domain Services
+    options:
+      wordBoundary: true
+  - expected: Microsoft Entra Domain Services
+    patterns:
+      - Azure Entra Domain Services
+    options:
+      wordBoundary: true
+  - expected: Entra Domain Services
+    patterns:
+      - EntraDomainServices
+    options:
+      wordBoundary: true
+  - expected: Fabric
+    options:
+      wordBoundary: true
+  - expected: Microsoft Fabric
+    patterns:
+      - Azure Fabric
+    options:
+      wordBoundary: true
+  - expected: Genomics
+    options:
+      wordBoundary: true
+  - expected: Microsoft Genomics
+    patterns:
+      - Azure Genomics
+    options:
+      wordBoundary: true
+  - expected: Graph Data Connect
+    options:
+      wordBoundary: true
+  - expected: Microsoft Graph Data Connect
+    patterns:
+      - Azure Graph Data Connect
+    options:
+      wordBoundary: true
+  - expected: Graph Data Connect
+    patterns:
+      - GraphDataConnect
+    options:
+      wordBoundary: true
+  - expected: Playwright Testing
+    options:
+      wordBoundary: true
+  - expected: Microsoft Playwright Testing
+    patterns:
+      - Azure Playwright Testing
+    options:
+      wordBoundary: true
+  - expected: Playwright Testing
+    patterns:
+      - PlaywrightTesting
+    options:
+      wordBoundary: true
+  - expected: Purview
+    options:
+      wordBoundary: true
+  - expected: Microsoft Purview
+    patterns:
+      - Azure Purview
+    options:
+      wordBoundary: true
+  - expected: Sentinel
+    options:
+      wordBoundary: true
+  - expected: Microsoft Sentinel
+    patterns:
+      - Azure Sentinel
+    options:
+      wordBoundary: true
+  - expected: Power BI Embedded
+    options:
+      wordBoundary: true
+  - expected: Power BI Embedded
+    patterns:
+      - Azure Power BI Embedded
+    options:
+      wordBoundary: true
+  - expected: Power BI Embedded
+    patterns:
+      - PowerBIEmbedded
+    options:
+      wordBoundary: true
+  - expected: QnA Maker
+    options:
+      wordBoundary: true
+  - expected: QnA Maker
+    patterns:
+      - Azure QnA Maker
+    options:
+      wordBoundary: true
+  - expected: QnA Maker
+    patterns:
+      - QnAMaker
+    options:
+      wordBoundary: true
+  - expected: SQL Server on Azure Virtual Machines
+    options:
+      wordBoundary: true
+  - expected: SQL Server on Azure Virtual Machines
+    patterns:
+      - Azure SQL Server on Azure Virtual Machines
+    options:
+      wordBoundary: true
+  - expected: SQL Server on Azure Virtual Machines
+    patterns:
+      - SQLServeronAzureVirtualMachines
+    options:
+      wordBoundary: true
+  - expected: Static Web Apps
+    options:
+      wordBoundary: true
+  - expected: Static Web Apps
+    patterns:
+      - Azure Static Web Apps
+    options:
+      wordBoundary: true
+  - expected: Static Web Apps
+    patterns:
+      - StaticWebApps
+    options:
+      wordBoundary: true
+  - expected: Virtual Machine Scale Sets
+    options:
+      wordBoundary: true
+  - expected: Virtual Machine Scale Sets
+    patterns:
+      - Azure Virtual Machine Scale Sets
+    options:
+      wordBoundary: true
+  - expected: Virtual Machine Scale Sets
+    patterns:
+      - VirtualMachineScaleSets
+    options:
+      wordBoundary: true
+  - expected: Virtual Machines
+    options:
+      wordBoundary: true
+  - expected: Virtual Machines
+    patterns:
+      - Azure Virtual Machines
+    options:
+      wordBoundary: true
+  - expected: Virtual Machines
+    patterns:
+      - VirtualMachines
+    options:
+      wordBoundary: true
+  - expected: Virtual WAN
+    options:
+      wordBoundary: true
+  - expected: Virtual WAN
+    patterns:
+      - Azure Virtual WAN
+    options:
+      wordBoundary: true
+  - expected: Virtual WAN
+    patterns:
+      - VirtualWAN
+    options:
+      wordBoundary: true
+  - expected: Visual Studio
+    options:
+      wordBoundary: true
+  - expected: Visual Studio
+    patterns:
+      - Azure Visual Studio
+    options:
+      wordBoundary: true
+  - expected: Visual Studio
+    patterns:
+      - VisualStudio
+    options:
+      wordBoundary: true
+  - expected: Visual Studio App Center
+    options:
+      wordBoundary: true
+  - expected: Visual Studio App Center
+    patterns:
+      - Azure Visual Studio App Center
+    options:
+      wordBoundary: true
+  - expected: Visual Studio App Center
+    patterns:
+      - VisualStudioAppCenter
+    options:
+      wordBoundary: true
+  - expected: Visual Studio Code
+    options:
+      wordBoundary: true
+  - expected: Visual Studio Code
+    patterns:
+      - Azure Visual Studio Code
+    options:
+      wordBoundary: true
+  - expected: Visual Studio Code
+    patterns:
+      - VisualStudioCode
+    options:
+      wordBoundary: true
+  - expected: Web App for Containers
+    options:
+      wordBoundary: true
+  - expected: Web App for Containers
+    patterns:
+      - Azure Web App for Containers
+    options:
+      wordBoundary: true
+  - expected: Web App for Containers
+    patterns:
+      - WebAppforContainers
+    options:
+      wordBoundary: true
+  - expected: Web Application Firewall
+    options:
+      wordBoundary: true
+  - expected: Web Application Firewall
+    patterns:
+      - Azure Web Application Firewall
+    options:
+      wordBoundary: true
+  - expected: Web Application Firewall
+    patterns:
+      - WebApplicationFirewall
+    options:
+      wordBoundary: true
+  - expected: Windows 10 IoT Core Services
+    options:
+      wordBoundary: true
+  - expected: Windows 10 IoT Core Services
+    patterns:
+      - Azure Windows 10 IoT Core Services
+    options:
+      wordBoundary: true
+  - expected: Windows 10 IoT Core Services
+    patterns:
+      - Windows10IoTCoreServices
+    options:
+      wordBoundary: true
+  - expected: Windows Virtual Machines
+    options:
+      wordBoundary: true
+  - expected: Windows Virtual Machines
+    patterns:
+      - Azure Windows Virtual Machines
+    options:
+      wordBoundary: true
+  - expected: Windows Virtual Machines
+    patterns:
+      - WindowsVirtualMachines
+    options:
+      wordBoundary: true
+  - expected: Windows for IoT
+    options:
+      wordBoundary: true
+  - expected: Windows for IoT
+    patterns:
+      - Azure Windows for IoT
+    options:
+      wordBoundary: true
+  - expected: Windows for IoT
+    patterns:
+      - WindowsforIoT
+    options:
+      wordBoundary: true

@@ -1,0 +1,67 @@
+version: 1
+rules:
+  - expected: Data Lake Storage
+    options:
+      wordBoundary: true
+    patterns:
+      - DataLake Storage
+      - Datalake Storage
+  - expected: OpenAI
+    options:
+      wordBoundary: true
+    patterns:
+      - Openai
+      - Open AI
+  - expected: VS Code
+    options:
+      wordBoundary: true
+    patterns:
+      - vs Code
+      - Vs Code
+  - expected: VNet
+    options:
+      wordBoundary: true
+    patterns:
+      - Vnet
+  - expected: Queue Storage
+    options:
+      wordBoundary: true
+    patterns:
+      - Queue storage
+  - expected: Blob Storage
+    options:
+      wordBoundary: true
+    patterns:
+      - Blob storage
+  - expected: Table Storage
+    options:
+      wordBoundary: true
+    patterns:
+      - Table storage
+  - expected: Storage account
+    options:
+      wordBoundary: true
+    patterns:
+      - Storage accounts
+      - Storage Account
+  - expected: GitHub
+    options:
+      wordBoundary: true
+    patterns:
+      - Github
+      - Git Hub
+  - expected: Entra ID
+    options:
+      wordBoundary: true
+  - expected: Microsoft Entra ID
+    patterns:
+      - Azure Entra ID
+      - Azure Active Directory
+      - Azure AD
+    options:
+      wordBoundary: true
+  - expected: Entra ID
+    patterns:
+      - EntraID
+    options:
+      wordBoundary: true

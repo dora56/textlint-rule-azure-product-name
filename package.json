@@ -1,0 +1,77 @@
+{
+  "version": "1.0.0",
+  "keywords": [
+    "textlintrule"
+  ],
+  "main": "lib/index.js",
+  "files": [
+    "lib/",
+    "src/index.ts",
+    "src/index.d.ts",
+    "!lib/src",
+    "!lib/rule",
+    "!lib/test",
+    "!lib/createRule*"
+  ],
+  "scripts": {
+    "test": "run-s test:jest test:lint",
+    "test:lint": "textlint-scripts test",
+    "test:jest": "jest spec/",
+    "build": "textlint-scripts build",
+    "prepublish": "npm run --if-present build",
+    "prepare": "husky install",
+    "commitlint": "commitlint -e $GIT_PARAMS",
+    "tsnode": "ts-node",
+    "lint": "eslint --ext .ts,.js .",
+    "lint:fix": "eslint --fix --ext .ts,.js .",
+    "format": "prettier --write **/*.{ts,json,yml}"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^18.4.3",
+    "@commitlint/config-conventional": "^18.4.3",
+    "@textlint/types": "^13.4.1",
+    "@tsconfig/node-lts": "^20.1.0",
+    "@types/cheerio": "^0.22.35",
+    "@types/jest": "^29.5.11",
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^20.10.4",
+    "@typescript-eslint/eslint-plugin": "^6.14.0",
+    "conventional-changelog-atom": "^4.0.0",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-config-standard-with-typescript": "^43.0.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.4.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "husky": "^8.0.0",
+    "jest": "^29.7.0",
+    "lint-staged": "^15.2.0",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^3.1.1",
+    "textlint-scripts": "^13.4.1",
+    "textlint-tester": "^13.4.1",
+    "ts-jest": "^29.1.1",
+    "ts-node": "^10.9.2",
+    "tslib": "^2.6.2",
+    "typescript": "^5.3.3"
+  },
+  "name": "@dora56/textlint-rule-azure-product-name",
+  "description": "Rule for Azure product names",
+  "directories": {
+    "test": "test"
+  },
+  "author": "dora56",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dora56/textlint-rule-azure-product-name.git"
+  },
+  "homepage": "https://github.com/dora56/textlint-rule-azure-product-name",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "cheerio": "^1.0.0-rc.12",
+    "js-yaml": "^4.1.0",
+    "textlint-rule-prh": "^5.3.0",
+    "yaml": "^2.3.4"
+  }
+}
