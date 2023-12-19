@@ -18,6 +18,7 @@
     "test:lint": "textlint-scripts test",
     "test:jest": "jest spec/",
     "build": "textlint-scripts build",
+    "createrule": "npx ts-node src/createRules.ts",
     "prepublish": "npm run --if-present build",
     "prepare": "husky install",
     "commitlint": "commitlint -e $GIT_PARAMS",
