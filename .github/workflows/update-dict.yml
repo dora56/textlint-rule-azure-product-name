@@ -1,0 +1,44 @@
+name: Auto-create regular rules
+permissions:
+  contents: write
+  pull-requests: write
+
+on:
+  schedule:
+    - cron: '0 0 1 * *'
+    - cron: '0 0 15 * *'
+  workflow_dispatch:
+
+env:
+  HAS_CHANGES: ''
+
+jobs:
+  auto-create-rules:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Build
+        uses: ./.github/actions/build
+
+      - name: Run createRule.js
+        run: npm run createrule
+
+      - name: Check for changes in auto-create-regular-rules.yml
+        id: check-diff
+        run: echo "HAS_CHANGES=$(git diff --name-only)" >> $GITHUB_ENV
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v3
+        if: ${{ env.HAS_CHANGES }} == 'dict/auto-create-regular-rules.yml'
+        with:
+          title: 'Update auto-create-regular-rules.yml'
+          commit-message: 'feat: update auto-create-regular-rules.yml'
+          branch: auto-update-regular-rules
+          base: main
+          delete-branch: true
+          token: ${{ secrets.GITHUB_TOKEN }}
