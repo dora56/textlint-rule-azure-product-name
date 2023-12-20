@@ -12,7 +12,7 @@ This rule inspired by [textlint-rule-aws-service-name](https://github.com/bun913
 - Check Azure product names
   - For examples:
     - `Azure Active Directory` -> `Azure Entra ID`
-    - `Microsoft AI Studio` -> `Microsoft AI Studio`
+    - `Microsoft AI Studio` -> `Azure AI Studio`
     - `AIStudio` -> `AI Studio`
 
 ## Install
