@@ -81,7 +81,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dora56/textlint-rule-azure-product-name.git"
+    "url": "git+https://github.com/dora56/textlint-rule-azure-product-name.git"
   },
   "homepage": "https://github.com/dora56/textlint-rule-azure-product-name",
   "dependencies": {
