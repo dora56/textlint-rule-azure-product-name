@@ -35,6 +35,10 @@ export function createAzureProductRules(product: AzureProductParams[]): Rules {
     if (maybeSpacingRule !== undefined) {
       rules.push(maybeSpacingRule);
     }
+    const singularToPluralRule = createSingularToPluralRule(product);
+    if (singularToPluralRule !== undefined) {
+      rules.push(singularToPluralRule);
+    }
   });
   return rules;
 }
@@ -107,4 +111,62 @@ function modifiedPascalCasePattern(name: string): string {
       .split('')
       .map((char: string, index: number) => index !== 0 && char === char.toUpperCase() ? char.toLowerCase() : char)
       .join('');
+}
+
+type PluralAndSingular = Record<string, string>;
+
+const patternsPluralAndSingularDict: PluralAndSingular = {
+  "Functions": "Function",
+  "Apps": "App",
+  "Containers": "Container",
+  "Identities": "Identity",
+  "Services": "Service",
+  "Blueprints": "Blueprint",
+  "Boards": "Board",
+  "Instances": "Instance",
+  "Environments": "Environment",
+  "Labs": "Lab",
+  "Twins": "Twin",
+  "Hubs": "Hub",
+  "Operations": "Operation",
+  "Essentials": "Essential",
+  "Applications": "Application",
+  "Files": "File",
+  "Anchors": "Anchor",
+  "Datasets": "Dataset",
+  "Insights": "Insight",
+  "Repos": "Repo",
+  "Machines": "Machine",
+  "Plans": "Plan",
+  "integrations": "integration",
+  "Sets": "Set",
+};
+
+function createSingularToPluralRule(product: AzureProductParams): RuleParam | undefined {
+  const patterns: string[] = [];
+
+  const name = product.name;
+  const lastWord = name.split(" ").pop();
+
+  const fullName = getFullProductName(product);
+  const count = fullName.split(" ").length;
+  const expected = count > 2 ? name : fullName;
+
+  if (lastWord === undefined) return undefined;
+
+  const singular = patternsPluralAndSingularDict[lastWord];
+  
+  if (singular !== undefined) {
+    const pattern = expected.replace(lastWord, singular);
+    patterns.push(pattern);
+  }
+
+  if (patterns.length === 0) return undefined;
+  const rule: RuleParam = {
+    expected,
+    patterns: patterns.map((pattern) => escapePattern(pattern)),
+    options: { wordBoundary: true },
+  };
+
+  return rule;
 }

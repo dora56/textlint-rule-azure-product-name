@@ -28,6 +28,32 @@ tester.run('AI Studio', report, {
 
 tester.run('Container Apps', report, {
   valid: ['Container Apps', 'Azure Container Apps'],
+  invalid: [
+    {
+      text: 'Microsoft Container Apps',
+      errors: [
+        {
+          message: 'Microsoft Container Apps => Azure Container Apps',
+        },
+      ],
+    },
+    {
+      text: 'ContainerApps',
+      errors: [
+        {
+          message: 'ContainerApps => Container Apps',
+        },
+      ],
+    },
+    {
+      text: 'Container App',
+      errors: [
+        {
+          message: 'Container App => Container Apps',
+        },
+      ],
+    },
+  ],
 });
 
 tester.run('DevOps', report, {

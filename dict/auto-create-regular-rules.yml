@@ -156,6 +156,11 @@ rules:
       - AIServices
     options:
       wordBoundary: true
+  - expected: AI Services
+    patterns:
+      - AI Service
+    options:
+      wordBoundary: true
   - expected: AI Speech Services
     options:
       wordBoundary: true
@@ -167,6 +172,11 @@ rules:
   - expected: AI Speech Services
     patterns:
       - AISpeechServices
+    options:
+      wordBoundary: true
+  - expected: AI Speech Services
+    patterns:
+      - AI Speech Service
     options:
       wordBoundary: true
   - expected: AI Studio
@@ -234,6 +244,11 @@ rules:
       - ActiveDirectoryDomainServices
     options:
       wordBoundary: true
+  - expected: Active Directory Domain Services
+    patterns:
+      - Active Directory Domain Service
+    options:
+      wordBoundary: true
   - expected: Active Directory External Identities
     options:
       wordBoundary: true
@@ -245,6 +260,11 @@ rules:
   - expected: Active Directory External Identities
     patterns:
       - ActiveDirectoryExternalIdentities
+    options:
+      wordBoundary: true
+  - expected: Active Directory External Identities
+    patterns:
+      - Active Directory External Identity
     options:
       wordBoundary: true
   - expected: Advisor
@@ -266,6 +286,11 @@ rules:
   - expected: Analysis Services
     patterns:
       - AnalysisServices
+    options:
+      wordBoundary: true
+  - expected: Analysis Services
+    patterns:
+      - Analysis Service
     options:
       wordBoundary: true
   - expected: App Configuration
@@ -415,12 +440,22 @@ rules:
       - Microsoft Blueprints
     options:
       wordBoundary: true
+  - expected: Azure Blueprints
+    patterns:
+      - Azure Blueprint
+    options:
+      wordBoundary: true
   - expected: Boards
     options:
       wordBoundary: true
   - expected: Azure Boards
     patterns:
       - Microsoft Boards
+    options:
+      wordBoundary: true
+  - expected: Azure Boards
+    patterns:
+      - Azure Board
     options:
       wordBoundary: true
   - expected: CDN
@@ -483,6 +518,11 @@ rules:
       - CommunicationServices
     options:
       wordBoundary: true
+  - expected: Communication Services
+    patterns:
+      - Communication Service
+    options:
+      wordBoundary: true
   - expected: Communications Gateway
     options:
       wordBoundary: true
@@ -509,6 +549,11 @@ rules:
       - ContainerApps
     options:
       wordBoundary: true
+  - expected: Container Apps
+    patterns:
+      - Container App
+    options:
+      wordBoundary: true
   - expected: Container Instances
     options:
       wordBoundary: true
@@ -520,6 +565,11 @@ rules:
   - expected: Container Instances
     patterns:
       - ContainerInstances
+    options:
+      wordBoundary: true
+  - expected: Container Instances
+    patterns:
+      - Container Instance
     options:
       wordBoundary: true
   - expected: Container Registry
@@ -786,6 +836,11 @@ rules:
       - DeploymentEnvironments
     options:
       wordBoundary: true
+  - expected: Deployment Environments
+    patterns:
+      - Deployment Environment
+    options:
+      wordBoundary: true
   - expected: DevOps
     options:
       wordBoundary: true
@@ -815,6 +870,11 @@ rules:
       - Dev Test Labs
     options:
       wordBoundary: true
+  - expected: DevTest Labs
+    patterns:
+      - DevTest Lab
+    options:
+      wordBoundary: true
   - expected: Digital Twins
     options:
       wordBoundary: true
@@ -826,6 +886,11 @@ rules:
   - expected: Digital Twins
     patterns:
       - DigitalTwins
+    options:
+      wordBoundary: true
+  - expected: Digital Twins
+    patterns:
+      - Digital Twin
     options:
       wordBoundary: true
   - expected: Disk Storage
@@ -867,6 +932,11 @@ rules:
       - EventHubs
     options:
       wordBoundary: true
+  - expected: Event Hubs
+    patterns:
+      - Event Hub
+    options:
+      wordBoundary: true
   - expected: ExpressRoute
     options:
       wordBoundary: true
@@ -887,6 +957,11 @@ rules:
   - expected: Azure Files
     patterns:
       - Microsoft Files
+    options:
+      wordBoundary: true
+  - expected: Azure Files
+    patterns:
+      - Azure File
     options:
       wordBoundary: true
   - expected: Firewall
@@ -944,6 +1019,11 @@ rules:
       - Microsoft Functions
     options:
       wordBoundary: true
+  - expected: Azure Functions
+    patterns:
+      - Azure Function
+    options:
+      wordBoundary: true
   - expected: HDInsight
     options:
       wordBoundary: true
@@ -989,6 +1069,11 @@ rules:
   - expected: Health Data Services
     patterns:
       - HealthDataServices
+    options:
+      wordBoundary: true
+  - expected: Health Data Services
+    patterns:
+      - Health Data Service
     options:
       wordBoundary: true
   - expected: Information Protection
@@ -1069,6 +1154,11 @@ rules:
       - IoTOperations
     options:
       wordBoundary: true
+  - expected: IoT Operations
+    patterns:
+      - IoT Operation
+    options:
+      wordBoundary: true
   - expected: Key Vault
     options:
       wordBoundary: true
@@ -1121,6 +1211,11 @@ rules:
       - KubernetesServiceEdgeEssentials
     options:
       wordBoundary: true
+  - expected: Kubernetes Service Edge Essentials
+    patterns:
+      - Kubernetes Service Edge Essential
+    options:
+      wordBoundary: true
   - expected: Lab Services
     options:
       wordBoundary: true
@@ -1132,6 +1227,11 @@ rules:
   - expected: Lab Services
     patterns:
       - LabServices
+    options:
+      wordBoundary: true
+  - expected: Lab Services
+    patterns:
+      - Lab Service
     options:
       wordBoundary: true
   - expected: Lighthouse
@@ -1181,6 +1281,11 @@ rules:
       - LogicApps
     options:
       wordBoundary: true
+  - expected: Logic Apps
+    patterns:
+      - Logic App
+    options:
+      wordBoundary: true
   - expected: Machine Learning
     options:
       wordBoundary: true
@@ -1205,6 +1310,11 @@ rules:
   - expected: Managed Applications
     patterns:
       - ManagedApplications
+    options:
+      wordBoundary: true
+  - expected: Managed Applications
+    patterns:
+      - Managed Application
     options:
       wordBoundary: true
   - expected: Managed Confidential Consortium Framework
@@ -1285,6 +1395,11 @@ rules:
       - MediaServices
     options:
       wordBoundary: true
+  - expected: Media Services
+    patterns:
+      - Media Service
+    options:
+      wordBoundary: true
   - expected: Migrate
     options:
       wordBoundary: true
@@ -1342,6 +1457,11 @@ rules:
       - Net App Files
     options:
       wordBoundary: true
+  - expected: NetApp Files
+    patterns:
+      - NetApp File
+    options:
+      wordBoundary: true
   - expected: Network Function Manager
     options:
       wordBoundary: true
@@ -1381,6 +1501,11 @@ rules:
       - NotificationHubs
     options:
       wordBoundary: true
+  - expected: Notification Hubs
+    patterns:
+      - Notification Hub
+    options:
+      wordBoundary: true
   - expected: Object Anchors
     options:
       wordBoundary: true
@@ -1394,6 +1519,11 @@ rules:
       - ObjectAnchors
     options:
       wordBoundary: true
+  - expected: Object Anchors
+    patterns:
+      - Object Anchor
+    options:
+      wordBoundary: true
   - expected: Open Datasets
     options:
       wordBoundary: true
@@ -1405,6 +1535,11 @@ rules:
   - expected: Open Datasets
     patterns:
       - OpenDatasets
+    options:
+      wordBoundary: true
+  - expected: Open Datasets
+    patterns:
+      - Open Dataset
     options:
       wordBoundary: true
   - expected: OpenAI Service
@@ -1431,6 +1566,11 @@ rules:
   - expected: Operator Insights
     patterns:
       - OperatorInsights
+    options:
+      wordBoundary: true
+  - expected: Operator Insights
+    patterns:
+      - Operator Insight
     options:
       wordBoundary: true
   - expected: Operator Nexus
@@ -1577,6 +1717,11 @@ rules:
   - expected: Azure Repos
     patterns:
       - Microsoft Repos
+    options:
+      wordBoundary: true
+  - expected: Azure Repos
+    patterns:
+      - Azure Repo
     options:
       wordBoundary: true
   - expected: Resource Manager
@@ -1756,6 +1901,11 @@ rules:
       - SpatialAnchors
     options:
       wordBoundary: true
+  - expected: Spatial Anchors
+    patterns:
+      - Spatial Anchor
+    options:
+      wordBoundary: true
   - expected: Sphere
     options:
       wordBoundary: true
@@ -1777,6 +1927,11 @@ rules:
       - SpotVirtualMachines
     options:
       wordBoundary: true
+  - expected: Spot Virtual Machines
+    patterns:
+      - Spot Virtual Machine
+    options:
+      wordBoundary: true
   - expected: Spring Apps
     options:
       wordBoundary: true
@@ -1788,6 +1943,11 @@ rules:
   - expected: Spring Apps
     patterns:
       - SpringApps
+    options:
+      wordBoundary: true
+  - expected: Spring Apps
+    patterns:
+      - Spring App
     options:
       wordBoundary: true
   - expected: Stack
@@ -1902,6 +2062,11 @@ rules:
       - TestPlans
     options:
       wordBoundary: true
+  - expected: Test Plans
+    patterns:
+      - Test Plan
+    options:
+      wordBoundary: true
   - expected: Time Series Insights
     options:
       wordBoundary: true
@@ -1913,6 +2078,11 @@ rules:
   - expected: Time Series Insights
     patterns:
       - TimeSeriesInsights
+    options:
+      wordBoundary: true
+  - expected: Time Series Insights
+    patterns:
+      - Time Series Insight
     options:
       wordBoundary: true
   - expected: Traffic Manager
@@ -2060,6 +2230,11 @@ rules:
       - CloudServices
     options:
       wordBoundary: true
+  - expected: Cloud Services
+    patterns:
+      - Cloud Service
+    options:
+      wordBoundary: true
   - expected: Data Science Virtual Machines
     options:
       wordBoundary: true
@@ -2071,6 +2246,11 @@ rules:
   - expected: Data Science Virtual Machines
     patterns:
       - DataScienceVirtualMachines
+    options:
+      wordBoundary: true
+  - expected: Data Science Virtual Machines
+    patterns:
+      - Data Science Virtual Machine
     options:
       wordBoundary: true
   - expected: Defender External Attack Surface Management
@@ -2099,6 +2279,11 @@ rules:
       - DevOpstoolintegrations
       - Devops tool integrations
       - Dev Ops tool integrations
+    options:
+      wordBoundary: true
+  - expected: DevOps tool integrations
+    patterns:
+      - DevOps tool integration
     options:
       wordBoundary: true
   - expected: Event Grid
@@ -2259,6 +2444,11 @@ rules:
       - EnergyDataServices
     options:
       wordBoundary: true
+  - expected: Energy Data Services
+    patterns:
+      - Energy Data Service
+    options:
+      wordBoundary: true
   - expected: Entra Domain Services
     options:
       wordBoundary: true
@@ -2270,6 +2460,11 @@ rules:
   - expected: Entra Domain Services
     patterns:
       - EntraDomainServices
+    options:
+      wordBoundary: true
+  - expected: Entra Domain Services
+    patterns:
+      - Entra Domain Service
     options:
       wordBoundary: true
   - expected: Fabric
@@ -2369,6 +2564,11 @@ rules:
       - SQLServeronAzureVirtualMachines
     options:
       wordBoundary: true
+  - expected: SQL Server on Azure Virtual Machines
+    patterns:
+      - SQL Server on Azure Virtual Machine
+    options:
+      wordBoundary: true
   - expected: Static Web Apps
     options:
       wordBoundary: true
@@ -2380,6 +2580,11 @@ rules:
   - expected: Static Web Apps
     patterns:
       - StaticWebApps
+    options:
+      wordBoundary: true
+  - expected: Static Web Apps
+    patterns:
+      - Static Web App
     options:
       wordBoundary: true
   - expected: Virtual Machine Scale Sets
@@ -2395,6 +2600,11 @@ rules:
       - VirtualMachineScaleSets
     options:
       wordBoundary: true
+  - expected: Virtual Machine Scale Sets
+    patterns:
+      - Virtual Machine Scale Set
+    options:
+      wordBoundary: true
   - expected: Virtual Machines
     options:
       wordBoundary: true
@@ -2406,6 +2616,11 @@ rules:
   - expected: Virtual Machines
     patterns:
       - VirtualMachines
+    options:
+      wordBoundary: true
+  - expected: Virtual Machines
+    patterns:
+      - Virtual Machine
     options:
       wordBoundary: true
   - expected: Virtual WAN
@@ -2473,6 +2688,11 @@ rules:
       - WebAppforContainers
     options:
       wordBoundary: true
+  - expected: Web App for Containers
+    patterns:
+      - Web App for Container
+    options:
+      wordBoundary: true
   - expected: Web Application Firewall
     options:
       wordBoundary: true
@@ -2499,6 +2719,11 @@ rules:
       - Windows10IoTCoreServices
     options:
       wordBoundary: true
+  - expected: Windows 10 IoT Core Services
+    patterns:
+      - Windows 10 IoT Core Service
+    options:
+      wordBoundary: true
   - expected: Windows Virtual Machines
     options:
       wordBoundary: true
@@ -2510,6 +2735,11 @@ rules:
   - expected: Windows Virtual Machines
     patterns:
       - WindowsVirtualMachines
+    options:
+      wordBoundary: true
+  - expected: Windows Virtual Machines
+    patterns:
+      - Windows Virtual Machine
     options:
       wordBoundary: true
   - expected: Windows for IoT
