@@ -231,24 +231,6 @@ rules:
       - APIManagement
     options:
       wordBoundary: true
-  - expected: Active Directory Domain Services
-    options:
-      wordBoundary: true
-  - expected: Azure Active Directory Domain Services
-    patterns:
-      - Microsoft Active Directory Domain Services
-    options:
-      wordBoundary: true
-  - expected: Active Directory Domain Services
-    patterns:
-      - ActiveDirectoryDomainServices
-    options:
-      wordBoundary: true
-  - expected: Active Directory Domain Services
-    patterns:
-      - Active Directory Domain Service
-    options:
-      wordBoundary: true
   - expected: Active Directory External Identities
     options:
       wordBoundary: true
@@ -583,6 +565,19 @@ rules:
   - expected: Container Registry
     patterns:
       - ContainerRegistry
+    options:
+      wordBoundary: true
+  - expected: Container Storage
+    options:
+      wordBoundary: true
+  - expected: Azure Container Storage
+    patterns:
+      - Microsoft Container Storage
+    options:
+      wordBoundary: true
+  - expected: Container Storage
+    patterns:
+      - ContainerStorage
     options:
       wordBoundary: true
   - expected: Cosmos DB
