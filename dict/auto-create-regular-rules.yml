@@ -1550,6 +1550,32 @@ rules:
       - OpenAIService
     options:
       wordBoundary: true
+  - expected: Operator 5G Core
+    options:
+      wordBoundary: true
+  - expected: Azure Operator 5G Core
+    patterns:
+      - Microsoft Operator 5G Core
+    options:
+      wordBoundary: true
+  - expected: Operator 5G Core
+    patterns:
+      - Operator5GCore
+    options:
+      wordBoundary: true
+  - expected: Operator Call Protection
+    options:
+      wordBoundary: true
+  - expected: Azure Operator Call Protection
+    patterns:
+      - Microsoft Operator Call Protection
+    options:
+      wordBoundary: true
+  - expected: Operator Call Protection
+    patterns:
+      - OperatorCallProtection
+    options:
+      wordBoundary: true
   - expected: Operator Insights
     options:
       wordBoundary: true
@@ -1647,6 +1673,19 @@ rules:
   - expected: Private Link
     patterns:
       - PrivateLink
+    options:
+      wordBoundary: true
+  - expected: Programmable Connectivity
+    options:
+      wordBoundary: true
+  - expected: Azure Programmable Connectivity
+    patterns:
+      - Microsoft Programmable Connectivity
+    options:
+      wordBoundary: true
+  - expected: Programmable Connectivity
+    patterns:
+      - ProgrammableConnectivity
     options:
       wordBoundary: true
   - expected: Quantum
@@ -1990,6 +2029,19 @@ rules:
   - expected: Stack Hub
     patterns:
       - StackHub
+    options:
+      wordBoundary: true
+  - expected: Storage Actions
+    options:
+      wordBoundary: true
+  - expected: Azure Storage Actions
+    patterns:
+      - Microsoft Storage Actions
+    options:
+      wordBoundary: true
+  - expected: Storage Actions
+    patterns:
+      - StorageActions
     options:
       wordBoundary: true
   - expected: Storage Explorer
