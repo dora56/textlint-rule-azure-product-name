@@ -1,5 +1,18 @@
 version: 1
 rules:
+  - expected: AI + machine learning
+    options:
+      wordBoundary: true
+  - expected: AI + machine learning
+    patterns:
+      - Azure AI + machine learning
+    options:
+      wordBoundary: true
+  - expected: AI + machine learning
+    patterns:
+      - AI+machinelearning
+    options:
+      wordBoundary: true
   - expected: AI Anomaly Detector
     options:
       wordBoundary: true
@@ -11,6 +24,14 @@ rules:
   - expected: AI Anomaly Detector
     patterns:
       - AIAnomalyDetector
+    options:
+      wordBoundary: true
+  - expected: Analytics
+    options:
+      wordBoundary: true
+  - expected: Analytics
+    patterns:
+      - Azure Analytics
     options:
       wordBoundary: true
   - expected: Avere vFXT for Azure
@@ -1550,6 +1571,32 @@ rules:
       - OpenAIService
     options:
       wordBoundary: true
+  - expected: Operator 5G Core
+    options:
+      wordBoundary: true
+  - expected: Azure Operator 5G Core
+    patterns:
+      - Microsoft Operator 5G Core
+    options:
+      wordBoundary: true
+  - expected: Operator 5G Core
+    patterns:
+      - Operator5GCore
+    options:
+      wordBoundary: true
+  - expected: Operator Call Protection
+    options:
+      wordBoundary: true
+  - expected: Azure Operator Call Protection
+    patterns:
+      - Microsoft Operator Call Protection
+    options:
+      wordBoundary: true
+  - expected: Operator Call Protection
+    patterns:
+      - OperatorCallProtection
+    options:
+      wordBoundary: true
   - expected: Operator Insights
     options:
       wordBoundary: true
@@ -1647,6 +1694,19 @@ rules:
   - expected: Private Link
     patterns:
       - PrivateLink
+    options:
+      wordBoundary: true
+  - expected: Programmable Connectivity
+    options:
+      wordBoundary: true
+  - expected: Azure Programmable Connectivity
+    patterns:
+      - Microsoft Programmable Connectivity
+    options:
+      wordBoundary: true
+  - expected: Programmable Connectivity
+    patterns:
+      - ProgrammableConnectivity
     options:
       wordBoundary: true
   - expected: Quantum
@@ -1992,6 +2052,19 @@ rules:
       - StackHub
     options:
       wordBoundary: true
+  - expected: Storage Actions
+    options:
+      wordBoundary: true
+  - expected: Azure Storage Actions
+    patterns:
+      - Microsoft Storage Actions
+    options:
+      wordBoundary: true
+  - expected: Storage Actions
+    patterns:
+      - StorageActions
+    options:
+      wordBoundary: true
   - expected: Storage Explorer
     options:
       wordBoundary: true
@@ -2230,6 +2303,27 @@ rules:
       - Cloud Service
     options:
       wordBoundary: true
+  - expected: Compute
+    options:
+      wordBoundary: true
+  - expected: Compute
+    patterns:
+      - Azure Compute
+    options:
+      wordBoundary: true
+  - expected: Containers
+    options:
+      wordBoundary: true
+  - expected: Containers
+    patterns:
+      - Azure Containers
+    options:
+      wordBoundary: true
+  - expected: Containers
+    patterns:
+      - Container
+    options:
+      wordBoundary: true
   - expected: Data Science Virtual Machines
     options:
       wordBoundary: true
@@ -2248,6 +2342,14 @@ rules:
       - Data Science Virtual Machine
     options:
       wordBoundary: true
+  - expected: Databases
+    options:
+      wordBoundary: true
+  - expected: Databases
+    patterns:
+      - Azure Databases
+    options:
+      wordBoundary: true
   - expected: Defender External Attack Surface Management
     options:
       wordBoundary: true
@@ -2259,6 +2361,20 @@ rules:
   - expected: Defender External Attack Surface Management
     patterns:
       - DefenderExternalAttackSurfaceManagement
+    options:
+      wordBoundary: true
+  - expected: DevOps
+    options:
+      wordBoundary: true
+  - expected: DevOps
+    patterns:
+      - Azure DevOps
+    options:
+      wordBoundary: true
+  - expected: DevOps
+    patterns:
+      - Devops
+      - Dev Ops
     options:
       wordBoundary: true
   - expected: DevOps tool integrations
@@ -2279,6 +2395,19 @@ rules:
   - expected: DevOps tool integrations
     patterns:
       - DevOps tool integration
+    options:
+      wordBoundary: true
+  - expected: Developer tools
+    options:
+      wordBoundary: true
+  - expected: Developer tools
+    patterns:
+      - Azure Developer tools
+    options:
+      wordBoundary: true
+  - expected: Developer tools
+    patterns:
+      - Developertools
     options:
       wordBoundary: true
   - expected: Event Grid
@@ -2309,6 +2438,48 @@ rules:
       - Git Hub Advanced Security for Azure Dev Ops
     options:
       wordBoundary: true
+  - expected: Hybrid + multicloud
+    options:
+      wordBoundary: true
+  - expected: Hybrid + multicloud
+    patterns:
+      - Azure Hybrid + multicloud
+    options:
+      wordBoundary: true
+  - expected: Hybrid + multicloud
+    patterns:
+      - Hybrid+multicloud
+    options:
+      wordBoundary: true
+  - expected: Identity
+    options:
+      wordBoundary: true
+  - expected: Identity
+    patterns:
+      - Azure Identity
+    options:
+      wordBoundary: true
+  - expected: Integration
+    options:
+      wordBoundary: true
+  - expected: Integration
+    patterns:
+      - Azure Integration
+    options:
+      wordBoundary: true
+  - expected: Internet of Things
+    options:
+      wordBoundary: true
+  - expected: Internet of Things
+    patterns:
+      - Azure Internet of Things
+    options:
+      wordBoundary: true
+  - expected: Internet of Things
+    patterns:
+      - InternetofThings
+    options:
+      wordBoundary: true
   - expected: Kinect DK
     options:
       wordBoundary: true
@@ -2333,6 +2504,27 @@ rules:
   - expected: Language Understanding
     patterns:
       - LanguageUnderstanding
+    options:
+      wordBoundary: true
+  - expected: Management and governance
+    options:
+      wordBoundary: true
+  - expected: Management and governance
+    patterns:
+      - Azure Management and governance
+    options:
+      wordBoundary: true
+  - expected: Management and governance
+    patterns:
+      - Managementandgovernance
+    options:
+      wordBoundary: true
+  - expected: Media
+    options:
+      wordBoundary: true
+  - expected: Media
+    patterns:
+      - Azure Media
     options:
       wordBoundary: true
   - expected: Azure Attestation
@@ -2520,6 +2712,43 @@ rules:
       - Azure Sentinel
     options:
       wordBoundary: true
+  - expected: Migration
+    options:
+      wordBoundary: true
+  - expected: Migration
+    patterns:
+      - Azure Migration
+    options:
+      wordBoundary: true
+  - expected: Mixed reality
+    options:
+      wordBoundary: true
+  - expected: Mixed reality
+    patterns:
+      - Azure Mixed reality
+    options:
+      wordBoundary: true
+  - expected: Mixed reality
+    patterns:
+      - Mixedreality
+    options:
+      wordBoundary: true
+  - expected: Mobile
+    options:
+      wordBoundary: true
+  - expected: Mobile
+    patterns:
+      - Azure Mobile
+    options:
+      wordBoundary: true
+  - expected: Networking
+    options:
+      wordBoundary: true
+  - expected: Networking
+    patterns:
+      - Azure Networking
+    options:
+      wordBoundary: true
   - expected: Power BI Embedded
     options:
       wordBoundary: true
@@ -2564,6 +2793,14 @@ rules:
       - SQL Server on Azure Virtual Machine
     options:
       wordBoundary: true
+  - expected: Security
+    options:
+      wordBoundary: true
+  - expected: Security
+    patterns:
+      - Azure Security
+    options:
+      wordBoundary: true
   - expected: Static Web Apps
     options:
       wordBoundary: true
@@ -2580,6 +2817,14 @@ rules:
   - expected: Static Web Apps
     patterns:
       - Static Web App
+    options:
+      wordBoundary: true
+  - expected: Storage
+    options:
+      wordBoundary: true
+  - expected: Storage
+    patterns:
+      - Azure Storage
     options:
       wordBoundary: true
   - expected: Virtual Machine Scale Sets
@@ -2631,6 +2876,19 @@ rules:
       - VirtualWAN
     options:
       wordBoundary: true
+  - expected: Virtual desktop infrastructure
+    options:
+      wordBoundary: true
+  - expected: Virtual desktop infrastructure
+    patterns:
+      - Azure Virtual desktop infrastructure
+    options:
+      wordBoundary: true
+  - expected: Virtual desktop infrastructure
+    patterns:
+      - Virtualdesktopinfrastructure
+    options:
+      wordBoundary: true
   - expected: Visual Studio
     options:
       wordBoundary: true
@@ -2668,6 +2926,14 @@ rules:
   - expected: Visual Studio Code
     patterns:
       - VisualStudioCode
+    options:
+      wordBoundary: true
+  - expected: Web
+    options:
+      wordBoundary: true
+  - expected: Web
+    patterns:
+      - Azure Web
     options:
       wordBoundary: true
   - expected: Web App for Containers
