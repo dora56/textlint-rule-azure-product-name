@@ -706,19 +706,6 @@ rules:
       - DataLakeStorage
     options:
       wordBoundary: true
-  - expected: Data Lake Storage Gen1
-    options:
-      wordBoundary: true
-  - expected: Azure Data Lake Storage Gen1
-    patterns:
-      - Microsoft Data Lake Storage Gen1
-    options:
-      wordBoundary: true
-  - expected: Data Lake Storage Gen1
-    patterns:
-      - DataLakeStorageGen1
-    options:
-      wordBoundary: true
   - expected: Data Share
     options:
       wordBoundary: true
@@ -1084,19 +1071,6 @@ rules:
       - InformationProtection
     options:
       wordBoundary: true
-  - expected: Internet Analyzer
-    options:
-      wordBoundary: true
-  - expected: Azure Internet Analyzer
-    patterns:
-      - Microsoft Internet Analyzer
-    options:
-      wordBoundary: true
-  - expected: Internet Analyzer
-    patterns:
-      - InternetAnalyzer
-    options:
-      wordBoundary: true
   - expected: IoT Central
     options:
       wordBoundary: true
@@ -1403,6 +1377,19 @@ rules:
       - Microsoft Migrate
     options:
       wordBoundary: true
+  - expected: Modeling and Simulation Workbench
+    options:
+      wordBoundary: true
+  - expected: Azure Modeling and Simulation Workbench
+    patterns:
+      - Microsoft Modeling and Simulation Workbench
+    options:
+      wordBoundary: true
+  - expected: Modeling and Simulation Workbench
+    patterns:
+      - ModelingandSimulationWorkbench
+    options:
+      wordBoundary: true
   - expected: Modular Datacenter
     options:
       wordBoundary: true
@@ -1501,24 +1488,6 @@ rules:
       - Notification Hub
     options:
       wordBoundary: true
-  - expected: Object Anchors
-    options:
-      wordBoundary: true
-  - expected: Azure Object Anchors
-    patterns:
-      - Microsoft Object Anchors
-    options:
-      wordBoundary: true
-  - expected: Object Anchors
-    patterns:
-      - ObjectAnchors
-    options:
-      wordBoundary: true
-  - expected: Object Anchors
-    patterns:
-      - Object Anchor
-    options:
-      wordBoundary: true
   - expected: Open Datasets
     options:
       wordBoundary: true
@@ -1548,6 +1517,32 @@ rules:
   - expected: OpenAI Service
     patterns:
       - OpenAIService
+    options:
+      wordBoundary: true
+  - expected: Operator 5G Core
+    options:
+      wordBoundary: true
+  - expected: Azure Operator 5G Core
+    patterns:
+      - Microsoft Operator 5G Core
+    options:
+      wordBoundary: true
+  - expected: Operator 5G Core
+    patterns:
+      - Operator5GCore
+    options:
+      wordBoundary: true
+  - expected: Operator Call Protection
+    options:
+      wordBoundary: true
+  - expected: Azure Operator Call Protection
+    patterns:
+      - Microsoft Operator Call Protection
+    options:
+      wordBoundary: true
+  - expected: Operator Call Protection
+    patterns:
+      - OperatorCallProtection
     options:
       wordBoundary: true
   - expected: Operator Insights
@@ -1647,6 +1642,19 @@ rules:
   - expected: Private Link
     patterns:
       - PrivateLink
+    options:
+      wordBoundary: true
+  - expected: Programmable Connectivity
+    options:
+      wordBoundary: true
+  - expected: Azure Programmable Connectivity
+    patterns:
+      - Microsoft Programmable Connectivity
+    options:
+      wordBoundary: true
+  - expected: Programmable Connectivity
+    patterns:
+      - ProgrammableConnectivity
     options:
       wordBoundary: true
   - expected: Quantum
@@ -1883,24 +1891,6 @@ rules:
       - SiteRecovery
     options:
       wordBoundary: true
-  - expected: Spatial Anchors
-    options:
-      wordBoundary: true
-  - expected: Azure Spatial Anchors
-    patterns:
-      - Microsoft Spatial Anchors
-    options:
-      wordBoundary: true
-  - expected: Spatial Anchors
-    patterns:
-      - SpatialAnchors
-    options:
-      wordBoundary: true
-  - expected: Spatial Anchors
-    patterns:
-      - Spatial Anchor
-    options:
-      wordBoundary: true
   - expected: Sphere
     options:
       wordBoundary: true
@@ -1990,6 +1980,19 @@ rules:
   - expected: Stack Hub
     patterns:
       - StackHub
+    options:
+      wordBoundary: true
+  - expected: Storage Actions
+    options:
+      wordBoundary: true
+  - expected: Azure Storage Actions
+    patterns:
+      - Microsoft Storage Actions
+    options:
+      wordBoundary: true
+  - expected: Storage Actions
+    patterns:
+      - StorageActions
     options:
       wordBoundary: true
   - expected: Storage Explorer
@@ -2309,19 +2312,6 @@ rules:
       - Git Hub Advanced Security for Azure Dev Ops
     options:
       wordBoundary: true
-  - expected: Kinect DK
-    options:
-      wordBoundary: true
-  - expected: Kinect DK
-    patterns:
-      - Azure Kinect DK
-    options:
-      wordBoundary: true
-  - expected: Kinect DK
-    patterns:
-      - KinectDK
-    options:
-      wordBoundary: true
   - expected: Language Understanding
     options:
       wordBoundary: true
@@ -2385,6 +2375,19 @@ rules:
   - expected: Copilot for Azure
     patterns:
       - CopilotforAzure
+    options:
+      wordBoundary: true
+  - expected: Copilot for Security
+    options:
+      wordBoundary: true
+  - expected: Microsoft Copilot for Security
+    patterns:
+      - Azure Copilot for Security
+    options:
+      wordBoundary: true
+  - expected: Copilot for Security
+    patterns:
+      - CopilotforSecurity
     options:
       wordBoundary: true
   - expected: Cost Management
@@ -2580,6 +2583,19 @@ rules:
   - expected: Static Web Apps
     patterns:
       - Static Web App
+    options:
+      wordBoundary: true
+  - expected: Trusted Signing
+    options:
+      wordBoundary: true
+  - expected: Trusted Signing
+    patterns:
+      - Azure Trusted Signing
+    options:
+      wordBoundary: true
+  - expected: Trusted Signing
+    patterns:
+      - TrustedSigning
     options:
       wordBoundary: true
   - expected: Virtual Machine Scale Sets
