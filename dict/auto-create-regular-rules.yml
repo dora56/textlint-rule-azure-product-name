@@ -231,22 +231,17 @@ rules:
       - APIManagement
     options:
       wordBoundary: true
-  - expected: Active Directory External Identities
+  - expected: Active Directory B2C
     options:
       wordBoundary: true
-  - expected: Azure Active Directory External Identities
+  - expected: Azure Active Directory B2C
     patterns:
-      - Microsoft Active Directory External Identities
+      - Microsoft Active Directory B2C
     options:
       wordBoundary: true
-  - expected: Active Directory External Identities
+  - expected: Active Directory B2C
     patterns:
-      - ActiveDirectoryExternalIdentities
-    options:
-      wordBoundary: true
-  - expected: Active Directory External Identities
-    patterns:
-      - Active Directory External Identity
+      - ActiveDirectoryB2C
     options:
       wordBoundary: true
   - expected: Advisor
@@ -516,6 +511,19 @@ rules:
   - expected: Communications Gateway
     patterns:
       - CommunicationsGateway
+    options:
+      wordBoundary: true
+  - expected: Compute Fleet
+    options:
+      wordBoundary: true
+  - expected: Azure Compute Fleet
+    patterns:
+      - Microsoft Compute Fleet
+    options:
+      wordBoundary: true
+  - expected: Compute Fleet
+    patterns:
+      - ComputeFleet
     options:
       wordBoundary: true
   - expected: Container Apps
@@ -2465,6 +2473,19 @@ rules:
       - Entra Domain Service
     options:
       wordBoundary: true
+  - expected: Entra External ID
+    options:
+      wordBoundary: true
+  - expected: Microsoft Entra External ID
+    patterns:
+      - Azure Entra External ID
+    options:
+      wordBoundary: true
+  - expected: Entra External ID
+    patterns:
+      - EntraExternalID
+    options:
+      wordBoundary: true
   - expected: Fabric
     options:
       wordBoundary: true
@@ -2521,6 +2542,19 @@ rules:
   - expected: Microsoft Sentinel
     patterns:
       - Azure Sentinel
+    options:
+      wordBoundary: true
+  - expected: Phi-3 open models
+    options:
+      wordBoundary: true
+  - expected: Phi-3 open models
+    patterns:
+      - /Azure Phi-3 open models/
+    options:
+      wordBoundary: true
+  - expected: Phi-3 open models
+    patterns:
+      - /Phi-3openmodels/
     options:
       wordBoundary: true
   - expected: Power BI Embedded
